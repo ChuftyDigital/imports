@@ -1,0 +1,367 @@
+# AI MODEL PERSONAS - IMAGE GENERATION PROMPTS
+## Master Prompts & Negative Prompts for Consistent Character Generation
+
+**PURPOSE:** Generate 3 base images per model that are consistent in appearance, maintaining the same facial features, body type, and overall look across all images.
+
+**USAGE INSTRUCTIONS:**
+1. Use these prompts with AI image generators (Midjourney, Stable Diffusion, DALL-E, etc.)
+2. Generate 3 images per prompt with slight pose/angle variations
+3. Use same seed number across all 3 images for maximum consistency
+4. Adjust technical parameters: High quality, photorealistic, 4K resolution
+5. Keep the SAME negative prompt for all 3 images of each model
+
+---
+
+## 1. YUKI NAKAMURA (YN-001) - Japanese Competitive Gamer
+
+**MASTER PROMPT:**
+"Portrait of a 25-year-old Japanese woman, competitive gamer aesthetic, 5'6" athletic slim build, long straight black hair with red highlights reaching mid-back, sharp intelligent dark brown eyes with subtle eyeliner, delicate facial features with defined cheekbones, light skin with healthy glow, natural makeup with red-tinted lip gloss, wearing gaming jersey or comfortable streetwear, gaming headset around neck, confident competitive expression, modern Osaka apartment background with RGB gaming setup visible, professional photography, soft studio lighting, photorealistic, 4K quality, frontal three-quarter view"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting at gaming desk, hands on keyboard, focused expression"
+- Image 2: "same character, standing pose, arms crossed confidently, slight smirk"
+- Image 3: "same character, relaxed pose on gaming chair, headset on, looking at camera"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime style, illustration, painting, low quality, blurry, distorted features, multiple people, different hair color, different face, caucasian features, overweight, elderly, child, unrealistic proportions, bad anatomy, deformed, mutation, extra limbs, text, watermark, signature, frame, border, different person, inconsistent features"
+
+---
+
+## 2. DAKOTA ROSE (DR-002) - Texas Girl Next Door
+
+**MASTER PROMPT:**
+"Portrait of a 22-year-old American woman, girl-next-door aesthetic, 5'5" naturally curvy athletic build, long wavy honey-blonde hair with natural highlights, warm hazel eyes with genuine sparkle, soft round face with light freckles across nose and cheeks, sun-kissed skin with healthy tan, minimal natural makeup with peachy lip gloss, wearing casual denim and fitted tee or sundress, small delicate necklace, sweet approachable smile, Austin Texas background with natural outdoor setting, golden hour lighting, photorealistic, 4K quality, friendly welcoming expression"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting casually on porch steps, relaxed smile"
+- Image 2: "same character, standing in field, hand through hair, looking over shoulder"
+- Image 3: "same character, close-up portrait, genuine laugh, natural pose"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, illustration, artificial, low quality, blurry, harsh features, heavy makeup, gothic style, dark aesthetic, different hair color, different face, asian features, different person, tattoos, piercings, aggressive expression, urban background, inconsistent features, multiple people"
+
+---
+
+## 3. VALENTINA SOUSA (VS-003) - Brazilian MILF
+
+**MASTER PROMPT:**
+"Portrait of a 33-year-old Brazilian woman, mature confident aesthetic, 5'7" voluptuous hourglass figure, long wavy dark brown hair with caramel highlights, warm dark brown eyes with subtle crow's feet, defined high cheekbones, olive-toned naturally tanned skin, glamorous makeup with nude lips, wearing form-fitting dress or athletic wear, gold jewelry visible, confident seductive expression showing maturity, Rio de Janeiro beach background, natural sunlight, photorealistic, 4K quality, sophisticated sensual pose"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, beachside pose, wind in hair, confident smile"
+- Image 2: "same character, sitting elegantly, legs crossed, sophisticated look"
+- Image 3: "same character, standing pose, hand on hip, sultry expression"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, young girl, teenager, thin body, pale skin, blonde hair, different face, caucasian features, shy expression, conservative clothing, cold climate background, different person, inconsistent features, multiple people, low quality, blurry, deformed"
+
+---
+
+## 4. PRIYA SHARMA (PS-004) - Indian Yoga Goddess
+
+**MASTER PROMPT:**
+"Portrait of a 25-year-old Indian woman, spiritual wellness aesthetic, 5'6" toned flexible athletic build, long flowing black hair reaching lower back, deep brown expressive eyes with peaceful gaze, elegant oval face with high cheekbones, warm brown skin with natural glow, minimal natural makeup, small bindi on forehead, wearing yoga attire or flowing comfortable clothing, simple gold nose ring and jewelry, serene peaceful expression, Bali temple or yoga studio background with natural elements, soft natural lighting, photorealistic, 4K quality, graceful spiritual presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, yoga pose, meditation position, eyes closed peacefully"
+- Image 2: "same character, standing with prayer hands, gentle smile"
+- Image 3: "same character, seated cross-legged, looking at camera calmly"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, caucasian, pale skin, light hair, different face, heavy makeup, western features only, aggressive expression, urban background, different person, inconsistent features, multiple people, low quality, blurry, revealing clothing, sexualized pose"
+
+---
+
+## 5. LUNA HART (LH-005) - Portland Alternative Tattoo Artist
+
+**MASTER PROMPT:**
+"Portrait of a 26-year-old American woman, alternative punk aesthetic, 5'4" petite slim build with curves, shoulder-length black hair with purple streaks in messy layers, piercing blue-grey eyes with dark eyeliner and eyeshadow, sharp angular features, pale skin, dark lipstick, visible tattoo sleeves on both arms with various designs, nose ring and ear piercings, wearing band t-shirt or leather jacket, confident rebellious expression with hint of vulnerability, Portland tattoo shop or urban background, moody atmospheric lighting, photorealistic, 4K quality, alternative edge"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting in tattoo chair, showing arm tattoos"
+- Image 2: "same character, leaning against brick wall, arms crossed"
+- Image 3: "same character, close-up portrait, direct gaze, slight smirk"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, clean preppy look, no tattoos, blonde hair, tan skin, bright colors, cheerful expression, corporate setting, different face, different person, inconsistent features, multiple people, low quality, blurry, conventional beauty"
+
+---
+
+## 6. MEI LIN CHEN (MC-006) - ASMR Girlfriend Experience
+
+**MASTER PROMPT:**
+"Portrait of a 24-year-old Chinese-American woman, soft gentle aesthetic, 5'3" petite delicate build, long silky straight black hair, large doe-like dark brown eyes with gentle expression, soft round face with delicate features, porcelain skin with natural blush, minimal makeup with pink lip gloss, wearing cozy sweater or soft comfortable clothing, small simple jewelry, tender caring expression, San Francisco cozy bedroom background with soft lighting and blankets, warm intimate lighting, photorealistic, 4K quality, comforting gentle presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting in cozy chair, holding mug, soft smile"
+- Image 2: "same character, close-up whispering pose, finger to lips"
+- Image 3: "same character, lying on bed with pillow, peaceful expression"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, harsh features, heavy makeup, loud aesthetic, bright colors, aggressive expression, outdoor setting, different face, different person, inconsistent features, multiple people, low quality, revealing clothing, sexualized, harsh lighting"
+
+---
+
+## 7. NATASHA VOLKOV (NV-007) - Berlin Dominatrix
+
+**MASTER PROMPT:**
+"Portrait of a 30-year-old Russian-German woman, dominatrix aesthetic, 5'9" tall statuesque athletic build, long platinum blonde hair in sleek ponytail or updo, piercing ice-blue eyes with intense commanding gaze, sharp sculpted features with high cheekbones, fair skin, dramatic makeup with dark lips, wearing black leather outfit or elegant dark dress, black leather choker or collar, confident authoritative expression, Berlin underground club or elegant dark room background, dramatic lighting with shadows, photorealistic, 4K quality, powerful dominant presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing with riding crop, commanding pose"
+- Image 2: "same character, sitting in throne-like chair, legs crossed"
+- Image 3: "same character, close-up portrait, intense direct gaze"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, submissive expression, soft features, bright colors, casual clothing, outdoor setting, different face, different person, inconsistent features, multiple people, low quality, weak posture, smiling broadly, playful expression"
+
+---
+
+## 8. ISABELLA REYES (IR-008) - Colombian Beach/Bikini Model
+
+**MASTER PROMPT:**
+"Portrait of a 26-year-old Colombian woman, beach lifestyle aesthetic, 5'6" athletic hourglass figure with swimmer's build, long wavy dark brown hair with sun-lightened ends, warm dark brown eyes with golden flecks, beautiful latina features with full lips, naturally tanned golden-bronze skin, glowing natural makeup, wearing bikini top or beachwear, simple beach jewelry, warm flirty smile, Miami beach or tropical ocean background, natural golden hour lighting, photorealistic, 4K quality, vibrant healthy glow"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing on beach, hand through hair, ocean background"
+- Image 2: "same character, sitting on beach blanket, playful expression"
+- Image 3: "same character, close-up portrait, wet hair, beachy glow"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, pale skin, indoor setting, formal wear, different face, different person, inconsistent features, multiple people, low quality, blurry, cold climate, covered up, heavy clothing, serious expression, urban background"
+
+---
+
+## 9. ARABELLA PEMBERTON-CLARKE (AP-009) - British Equestrian
+
+**MASTER PROMPT:**
+"Portrait of a 29-year-old British woman, aristocratic equestrian aesthetic, 5'8" tall elegant athletic build, long chestnut brown hair in sophisticated updo or loose waves, striking green eyes with intelligent commanding gaze, refined angular features with high cheekbones, fair English rose complexion, polished natural makeup, wearing riding outfit or elegant country attire, equestrian accessories visible, confident elegant expression with hint of dominance, English countryside estate or stable background, natural daylight, photorealistic, 4K quality, regal sophisticated presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing with riding helmet, confident pose"
+- Image 2: "same character, sitting elegantly, legs crossed, refined posture"
+- Image 3: "same character, close-up portrait, slight knowing smile"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, casual wear, urban setting, different face, different person, inconsistent features, multiple people, low quality, messy appearance, revealing clothing, overly sexualized, common features, plain background"
+
+---
+
+## 10. GIADA VALENTINI (GV-010) - Italian Flight Attendant
+
+**MASTER PROMPT:**
+"Portrait of a 27-year-old Italian woman, luxury travel aesthetic, 5'7" slim elegant build, long dark brown hair in sophisticated style, deep brown eyes with mysterious allure, classic Italian beauty features with full lips, olive-toned skin, polished glamorous makeup, wearing flight attendant uniform or elegant travel attire, subtle luxury jewelry, mysterious sophisticated smile, airplane cabin or luxury hotel background, professional lighting, photorealistic, 4K quality, worldly elegant presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing in uniform, professional pose"
+- Image 2: "same character, sitting in airplane seat, elegant posture"
+- Image 3: "same character, close-up portrait, sophisticated expression"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, casual wear, messy appearance, different face, different person, inconsistent features, multiple people, low quality, blurry, plain background, overly revealing, unprofessional, budget aesthetic"
+
+---
+
+## 11. SASHA VOLKOV (SV-011) - Russian Gamer Girl
+
+**MASTER PROMPT:**
+"Portrait of a 24-year-old Russian-American woman, cute gamer aesthetic, 5'5" petite slim build, long straight light brown hair with bangs, large expressive green eyes with playful sparkle, soft round youthful face, fair skin with slight blush, cute natural makeup with glossy lips, wearing anime graphic tee or hoodie, gaming headset visible, playful friendly expression, Los Angeles bedroom gaming setup background with LED lights and posters, colorful ambient lighting, photorealistic, 4K quality, adorable nerdy vibe"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting at gaming desk, controller in hands"
+- Image 2: "same character, peace sign pose, cute smile"
+- Image 3: "same character, lying on bed with plushies, relaxed pose"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime drawn style, serious expression, professional attire, different face, different person, inconsistent features, multiple people, low quality, heavy makeup, sultry pose, formal setting, outdoor background"
+
+---
+
+## 12. ZARA MITCHELL (ZM-012) - Caribbean Fitness Coach
+
+**MASTER PROMPT:**
+"Portrait of a 31-year-old Caribbean-Canadian woman, athletic fitness aesthetic, 5'8" muscular toned athletic build, long black braided hair or high ponytail, warm brown eyes with determined expression, strong beautiful features, rich dark brown skin with healthy glow, minimal athletic makeup, wearing sports bra and athletic wear, fitness watch visible, confident motivating smile, Toronto gym or outdoor training background, energetic lighting, photorealistic, 4K quality, powerful athletic presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, workout pose, flexing, confident expression"
+- Image 2: "same character, standing with water bottle, coaching stance"
+- Image 3: "same character, close-up portrait, motivational smile"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, thin body, weak build, different face, different person, inconsistent features, multiple people, low quality, blurry, formal wear, indoor office setting, pale skin, light hair, passive expression"
+
+---
+
+## 13. SAKURA TANAKA (ST-013) - Japanese Cosplay Artist
+
+**MASTER PROMPT:**
+"Portrait of a 23-year-old Japanese woman, kawaii cosplay aesthetic, 5'2" petite delicate build, long straight black hair with colorful clip-in extensions, large expressive dark brown eyes with anime-style makeup, soft round youthful face, porcelain skin, cute makeup with pink blush and glossy lips, wearing casual Japanese street fashion or partial cosplay elements, hair accessories visible, sweet shy smile, Tokyo apartment bedroom with cosplay materials background, soft pastel lighting, photorealistic, 4K quality, adorable artistic vibe"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, holding cosplay costume, excited expression"
+- Image 2: "same character, sitting surrounded by craft materials, focused look"
+- Image 3: "same character, close-up portrait, cute pose, peace sign"
+
+**NEGATIVE PROMPT:**
+"cartoon, fully anime style, western features, tall build, different face, different person, inconsistent features, multiple people, low quality, mature appearance, sexy pose, dark aesthetic, outdoor setting"
+
+---
+
+## 14. AMÉLIE ROUSSEAU (AR-014) - French Fashion Model
+
+**MASTER PROMPT:**
+"Portrait of a 28-year-old French woman, haute couture aesthetic, 5'10" tall slim model build, long dark brown hair in elegant effortless style, striking hazel-grey eyes with intense gaze, refined sculpted features with prominent cheekbones, fair skin with subtle Parisian glow, sophisticated minimal makeup with red lips, wearing high fashion outfit or elegant designer clothing, subtle luxury jewelry, confident alluring expression, Paris fashion district or elegant studio background, editorial lighting, photorealistic, 4K quality, chic sophisticated presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing in model pose, editorial stance"
+- Image 2: "same character, sitting elegantly, contemplative expression"
+- Image 3: "same character, close-up portrait, intense gaze"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, casual wear, average height, different face, different person, inconsistent features, multiple people, low quality, commercial smile, overly friendly, bright colors, suburban background, plus size"
+
+---
+
+## 15. CHLOE WILLIAMS (CW-015) - Scottish College Student
+
+**MASTER PROMPT:**
+"Portrait of a 20-year-old Scottish woman, college student aesthetic, 5'4" slim youthful build with slight curves, long wavy red-auburn hair, bright blue eyes with youthful sparkle, cute round face with light freckles, fair Scottish skin, fresh natural makeup, wearing casual university attire like sweater and jeans, simple jewelry, bubbly cheerful smile, Edinburgh university or dorm room background, natural bright lighting, photorealistic, 4K quality, youthful energetic vibe"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting at desk with books, studying pose"
+- Image 2: "same character, standing with backpack, cheerful expression"
+- Image 3: "same character, close-up portrait, genuine laugh"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, mature appearance, heavy makeup, formal wear, different face, different person, inconsistent features, multiple people, low quality, dark hair, tan skin, serious expression, professional setting"
+
+---
+
+## 16. SIENNA BROOKS (SB-016) - Australian Cougar
+
+**MASTER PROMPT:**
+"Portrait of a 35-year-old Australian woman, mature beach aesthetic, 5'7" fit athletic build with curves, shoulder-length sun-bleached blonde hair with waves, warm blue-green eyes with laugh lines, attractive mature features with defined bone structure, golden tanned skin, natural sun-kissed makeup, wearing beach casual attire or activewear, simple surf-style jewelry, confident fun smile, Gold Coast beach or coastal background, natural sunlight, photorealistic, 4K quality, vibrant mature energy"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing on beach, confident pose"
+- Image 2: "same character, sitting casually, relaxed laugh"
+- Image 3: "same character, close-up portrait, warm smile"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, young girl, pale skin, dark hair, indoor setting, different face, different person, inconsistent features, multiple people, low quality, heavy makeup, formal wear, serious expression, elderly appearance"
+
+---
+
+## 17. JASMINE NGUYEN (JN-017) - Petite Asian Beauty
+
+**MASTER PROMPT:**
+"Portrait of a 23-year-old Vietnamese-American woman, petite sweet aesthetic, 5'0" very petite delicate build, long straight black hair with soft layers, large dark brown eyes with innocent expression, soft round youthful face, light porcelain skin, soft natural makeup with pink tones, wearing casual cute clothing like oversized sweater, delicate jewelry, shy sweet smile, Orange County cozy home background, soft warm lighting, photorealistic, 4K quality, adorable gentle presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting curled up, shy expression"
+- Image 2: "same character, standing showing full petite frame, sweet pose"
+- Image 3: "same character, close-up portrait, soft smile"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, tall build, different face, different person, inconsistent features, multiple people, low quality, confident posing, revealing clothing, heavy makeup, outdoor setting, mature appearance"
+
+---
+
+## 18. XIMENA MORALES (XM-018) - Mexican Curves BBW
+
+**MASTER PROMPT:**
+"Portrait of a 27-year-old Mexican woman, curvy celebration aesthetic, 5'5" voluptuous full-figured hourglass build, long thick black hair in loose curls, warm dark brown eyes with passionate expression, beautiful full-faced features with full lips, warm tan brown skin, colorful vibrant makeup, wearing form-fitting dress showing curves, bold jewelry, confident vivacious smile, Mexico City colorful background, warm vibrant lighting, photorealistic, 4K quality, proud curvaceous presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing pose showing curves, confident stance"
+- Image 2: "same character, sitting celebrating, joyful expression"
+- Image 3: "same character, close-up portrait, passionate smile"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, thin body, different face, different person, inconsistent features, multiple people, low quality, shy expression, covered up, muted colors, plain background, slender build, pale skin"
+
+---
+
+## 19. SCARLETT MONROE (SM-019) - Southern Belle BBW
+
+**MASTER PROMPT:**
+"Portrait of a 29-year-old American Southern woman, BBW southern charm aesthetic, 5'6" full-figured soft curvy build, long wavy auburn-red hair, warm brown eyes with kind expression, soft round beautiful face, fair skin with peachy undertones, natural warm makeup with peach lips, wearing sundress or comfortable southern attire, pearl necklace, warm nurturing smile, Nashville porch or homey southern background, golden warm lighting, photorealistic, 4K quality, welcoming soft presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, sitting on porch swing, gentle smile"
+- Image 2: "same character, standing with arms open welcomingly"
+- Image 3: "same character, close-up portrait, warm caring expression"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, thin body, different face, different person, inconsistent features, multiple people, low quality, dark aesthetic, revealing clothing, urban setting, cold expression, athletic build"
+
+---
+
+## 20. EBONY JACKSON (EJ-020) - Black Beauty Advocate
+
+**MASTER PROMPT:**
+"Portrait of a 28-year-old Black American woman, empowered beauty aesthetic, 5'7" curvy athletic build, natural black hair in various styles (braids, afro, or curls), dark brown eyes with confident expression, beautiful dark skin with rich undertones, polished professional makeup enhancing natural beauty, wearing stylish professional or casual chic attire, statement jewelry, confident proud smile, Atlanta urban professional background, natural good lighting, photorealistic, 4K quality, powerful elegant presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, standing professional pose, confident expression"
+- Image 2: "same character, sitting elegantly, thoughtful look"
+- Image 3: "same character, close-up portrait, powerful direct gaze"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, light skin, different face, different person, inconsistent features, multiple people, low quality, submissive expression, casual sloppy attire, poor lighting, white-washed features, unnatural hair"
+
+---
+
+## 21. LENA KOZLOV (LK-021) - Lesbian Couples Content
+
+**MASTER PROMPT:**
+"Portrait of a 25-year-old Russian-American woman, athletic lesbian aesthetic, 5'6" toned athletic swimmer build, short dark brown hair in pixie or undercut style, intense grey-blue eyes with confident expression, strong attractive features, fair skin with healthy glow, minimal natural makeup, wearing casual athletic or comfortable clothing, simple jewelry, confident authentic smile, San Diego apartment or beach background, natural lighting, photorealistic, 4K quality, strong genuine presence"
+
+**VARIATION PROMPTS FOR CONSISTENCY:**
+- Image 1: "same character, casual athletic pose, confident stance"
+- Image 2: "same character, sitting relaxed, genuine smile"
+- Image 3: "same character, close-up portrait, authentic expression"
+
+**NEGATIVE PROMPT:**
+"cartoon, anime, hyper-feminine presentation, long hair, heavy makeup, different face, different person, inconsistent features, multiple people, low quality, sexualized pose, male features, overly styled"
+
+---
+
+## TECHNICAL RECOMMENDATIONS FOR CONSISTENCY
+
+### For All Models:
+
+**CONSISTENCY TIPS:**
+1. **Use Same Seed:** When generating multiple images of same character, use identical seed number
+2. **Lock Core Features:** Emphasize key identifying features (hair color/style, eye color, skin tone, build)
+3. **Reference First Image:** After generating first image, reference it for subsequent images
+4. **Batch Generation:** Generate all 3 images in same session when possible
+5. **Style Consistency:** Keep same quality/style descriptors across all 3 prompts
+
+**TECHNICAL PARAMETERS:**
+- Quality: 4K, photorealistic, professional photography
+- Lighting: Natural, flattering, appropriate to setting
+- Pose Variety: Frontal, three-quarter, profile OR sitting, standing, close-up
+- Expression Range: Keep consistent with character personality
+- Background: Simple but contextual to character's niche
+
+**POST-GENERATION TIPS:**
+- Select the 3 most consistent images from batch
+- Minor editing for final consistency (color matching, lighting balance)
+- Create reference sheet with all 3 images side-by-side
+- Use these 3 base images for all future content generation of that character
+
+---
+
+## PLATFORM-SPECIFIC ADJUSTMENTS
+
+**For Midjourney:** Add "--ar 2:3" for portrait ratio, "--s 750" for stylization
+**For Stable Diffusion:** Increase CFG scale to 7-9 for better prompt adherence
+**For DALL-E:** May need to simplify prompts, focus on core descriptors
+**For Leonardo.AI:** Use PhotoReal setting, increase prompt strength
+
+---
+
+*End of Image Generation Prompts Document*
+*Total: 21 Complete Character Prompt Sets*
+*Designed for: Maximum consistency across multiple image generations*
