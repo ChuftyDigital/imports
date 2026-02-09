@@ -211,28 +211,66 @@ class PromptEngine:
                 return f"{shape} nose"
         return ""
 
+    # Budget for the identity block within the total prompt.
+    # Leaves room for framing, clothing, environment, and enhancement tokens.
+    IDENTITY_BUDGET = 600
+
     def build_identity_block(self, include_full_body: bool = False,
                               hair_style_override: str = "") -> str:
-        """Assemble the complete identity description for this character."""
-        mandatory = self.char.get("generation.mandatory_tokens", "1girl, solo")
-        identity_extra = self.char.get("generation.identity_tokens", "")
-        age = self.char.get("age_appearance", "")
-        ethnicity = self.char.get("ethnicity", "")
+        """Assemble the identity description using the curated summary first.
 
-        sections = [
-            mandatory,
-            f"{age} year old" if age else "",
-            ethnicity if ethnicity else "",
-            self.build_face_tokens(),
-            self.build_eye_tokens(),
-            self.build_nose_tokens(),
-            self.build_lips_tokens(),
-            self.build_hair_tokens(style_override=hair_style_override),
-            self.build_body_tokens(include_full=include_full_body),
-            identity_extra,
+        Uses the pre-written identity_tokens (concise ~200 char summary) as
+        the core, then fills remaining budget with expanded detail tokens
+        in priority order: face > eyes > hair > body > nose > lips.
+        """
+        mandatory = self.char.get("generation.mandatory_tokens", "1girl, solo")
+        identity_summary = self.char.get("generation.identity_tokens", "")
+
+        # Core: mandatory + curated summary (always included)
+        core = ", ".join(s for s in [mandatory, identity_summary] if s)
+
+        # If no curated summary, fall back to full expansion
+        if not identity_summary:
+            age = self.char.get("age_appearance", "")
+            ethnicity = self.char.get("ethnicity", "")
+            sections = [
+                mandatory,
+                f"{age} year old" if age else "",
+                ethnicity if ethnicity else "",
+                self.build_face_tokens(),
+                self.build_eye_tokens(),
+                self.build_nose_tokens(),
+                self.build_lips_tokens(),
+                self.build_hair_tokens(style_override=hair_style_override),
+                self.build_body_tokens(include_full=include_full_body),
+            ]
+            return ", ".join(s for s in sections if s)
+
+        # Budget-aware expansion: add detail tokens if room permits
+        remaining = self.IDENTITY_BUDGET - len(core)
+        extras = []
+
+        # Hair override takes priority (for vault variety)
+        if hair_style_override:
+            extras.append(hair_style_override)
+
+        # Add expanded details in priority order
+        detail_builders = [
+            self.build_face_tokens,
+            self.build_eye_tokens,
+            lambda: self.build_hair_tokens(style_override=hair_style_override),
+            lambda: self.build_body_tokens(include_full=include_full_body),
         ]
 
-        return ", ".join(s for s in sections if s)
+        for builder in detail_builders:
+            tokens = builder()
+            if tokens and remaining > len(tokens) + 2:
+                extras.append(tokens)
+                remaining -= len(tokens) + 2
+
+        if extras:
+            return f"{core}, {', '.join(extras)}"
+        return core
 
     # -------------------------------------------------------------------------
     # STYLE & ENVIRONMENT BLOCK
@@ -367,15 +405,18 @@ class PromptEngine:
         if expr:
             sections.append(expr)
 
-        # 4. Framing/composition
+        # 4. Framing/composition (custom framing fully replaces default)
         if framing:
             sections.append(framing)
-        elif shot_type == "portrait":
-            sections.append("close-up portrait, head and shoulders, looking at viewer")
-        elif shot_type == "three_quarter":
-            sections.append("upper body, three quarter view, looking at viewer")
-        elif shot_type == "full_body":
-            sections.append("full body shot, standing, looking at viewer")
+        else:
+            if shot_type == "portrait":
+                sections.append("close-up portrait, head and shoulders, looking at viewer")
+            elif shot_type == "three_quarter":
+                sections.append("upper body, three quarter view, looking at viewer")
+            elif shot_type == "full_body":
+                sections.append("full body shot, standing, looking at viewer")
+            elif shot_type == "closeup":
+                sections.append("extreme close-up, face detail, looking at viewer")
 
         # 5. Clothing
         outfit = clothing or self.get_clothing_for_lane(lane)
@@ -605,10 +646,22 @@ class PromptEngine:
 
     @staticmethod
     def _clean_prompt(prompt: str) -> str:
-        """Clean up prompt string: remove double commas, extra spaces, etc."""
+        """Clean up prompt: remove double commas, extra spaces, deduplicate tokens."""
+        # Fix comma issues
         prompt = re.sub(r",\s*,", ",", prompt)
         prompt = re.sub(r"\s+", " ", prompt)
         prompt = re.sub(r"^,\s*", "", prompt)
         prompt = re.sub(r",\s*$", "", prompt)
         prompt = prompt.strip()
+
+        # Deduplicate: if the same token appears twice, keep only the first
+        seen = set()
+        deduped = []
+        for token in prompt.split(","):
+            normalized = token.strip().lower()
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                deduped.append(token.strip())
+        prompt = ", ".join(deduped)
+
         return prompt

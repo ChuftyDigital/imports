@@ -19,6 +19,11 @@ from orchestrator.config import ContentLane, ImageType
 class PromptEnhancer:
     """Enhances base prompts with photorealism and technical photography tokens."""
 
+    # SDXL CLIP encodes in 3 passes of 77 tokens = 231 tokens max.
+    # ~4 chars per token on average, so ~900 chars of real content.
+    # With commas/spaces overhead, cap total prompt at 1800 chars.
+    MAX_PROMPT_CHARS = 1800
+
     # Photography technique tokens — randomly sampled for variety
     PHOTOGRAPHY_TOKENS = [
         "professional photography",
@@ -26,15 +31,11 @@ class PromptEnhancer:
         "shallow depth of field",
         "bokeh background",
         "sharp focus on subject",
-        "high dynamic range",
         "natural color grading",
         "shot on Canon EOS R5",
         "85mm lens",
         "f/1.8 aperture",
-        "professional portrait photography",
         "editorial photography",
-        "fashion photography",
-        "lifestyle photography",
     ]
 
     # Skin realism tokens — critical for avoiding the "AI skin" look
@@ -42,28 +43,21 @@ class PromptEnhancer:
         "realistic skin texture",
         "natural skin pores",
         "subtle skin imperfections",
-        "natural skin subsurface scattering",
         "realistic skin sheen",
-        "natural skin undertones",
     ]
 
     # Lighting quality tokens
     LIGHTING_QUALITY_TOKENS = [
         "professional lighting",
-        "natural light and shadow interplay",
-        "subtle rim lighting",
         "catch lights in eyes",
         "soft shadow gradients",
-        "three-point lighting",
         "natural ambient occlusion",
     ]
 
     # Anti-artifact tokens (things that make images look less AI)
     ANTI_ARTIFACT_TOKENS = [
         "photorealistic",
-        "hyperrealistic",
         "ultra detailed",
-        "8k resolution",
         "crisp details",
         "lifelike",
     ]
@@ -73,27 +67,19 @@ class PromptEnhancer:
         "face": [
             "detailed facial features",
             "realistic eye reflections",
-            "natural lip texture",
             "individual eyelashes visible",
-            "realistic eyebrow hairs",
         ],
         "hair": [
             "individual hair strands visible",
-            "natural hair shine",
             "realistic hair flow",
-            "detailed hair texture",
         ],
         "body": [
             "natural body proportions",
             "realistic skin texture on body",
-            "natural muscle definition",
-            "realistic body lighting",
         ],
         "hands": [
             "detailed fingers",
             "correct hand anatomy",
-            "natural finger proportions",
-            "realistic hand pose",
         ],
     }
 
@@ -105,7 +91,11 @@ class PromptEnhancer:
         realism_level: float = 0.8,
         seed: Optional[int] = None,
     ) -> str:
-        """Enhance a prompt with photorealism tokens.
+        """Enhance a prompt with photorealism tokens, budget-aware.
+
+        Only adds enhancement tokens if the base prompt has room under the
+        MAX_PROMPT_CHARS budget. Prioritizes: photography > skin > lighting >
+        anti-artifact > zone detail. Stops adding once budget is reached.
 
         Args:
             prompt: Base prompt from PromptEngine
@@ -115,30 +105,37 @@ class PromptEnhancer:
             seed: Random seed for reproducible enhancement
 
         Returns:
-            Enhanced prompt string
+            Enhanced prompt string, capped at MAX_PROMPT_CHARS
         """
         if seed is not None:
             random.seed(seed)
 
-        enhancements = []
+        remaining = self.MAX_PROMPT_CHARS - len(prompt)
+        if remaining < 50:
+            # Base prompt already near limit — skip enhancements
+            return prompt[:self.MAX_PROMPT_CHARS]
 
-        # Always add core realism tokens
-        n_photo = max(1, int(len(self.PHOTOGRAPHY_TOKENS) * realism_level * 0.3))
-        enhancements.extend(random.sample(self.PHOTOGRAPHY_TOKENS, n_photo))
+        # Collect candidate tokens in priority order
+        candidates = []
 
-        # Skin realism (always important for photorealistic humans)
-        n_skin = max(1, int(len(self.SKIN_REALISM_TOKENS) * realism_level * 0.4))
-        enhancements.extend(random.sample(self.SKIN_REALISM_TOKENS, n_skin))
+        # Core photography (pick 2)
+        candidates.extend(random.sample(self.PHOTOGRAPHY_TOKENS,
+                                        min(2, len(self.PHOTOGRAPHY_TOKENS))))
 
-        # Lighting quality
-        n_light = max(1, int(len(self.LIGHTING_QUALITY_TOKENS) * realism_level * 0.3))
-        enhancements.extend(random.sample(self.LIGHTING_QUALITY_TOKENS, n_light))
+        # Skin realism (pick 1-2)
+        n_skin = max(1, int(2 * realism_level))
+        candidates.extend(random.sample(self.SKIN_REALISM_TOKENS,
+                                        min(n_skin, len(self.SKIN_REALISM_TOKENS))))
 
-        # Anti-artifact tokens
-        n_anti = max(1, int(len(self.ANTI_ARTIFACT_TOKENS) * realism_level * 0.4))
-        enhancements.extend(random.sample(self.ANTI_ARTIFACT_TOKENS, n_anti))
+        # Lighting (pick 1)
+        candidates.extend(random.sample(self.LIGHTING_QUALITY_TOKENS, 1))
 
-        # Shot-type-specific detail tokens
+        # Anti-artifact (pick 1-2)
+        n_anti = max(1, int(2 * realism_level))
+        candidates.extend(random.sample(self.ANTI_ARTIFACT_TOKENS,
+                                        min(n_anti, len(self.ANTI_ARTIFACT_TOKENS))))
+
+        # Shot-type-specific detail tokens (pick 1 per zone)
         if shot_type in ("portrait", "closeup"):
             zones = ["face", "hair"]
         elif shot_type == "three_quarter":
@@ -149,11 +146,21 @@ class PromptEnhancer:
         for zone in zones:
             zone_tokens = self.DETAIL_TOKENS.get(zone, [])
             if zone_tokens:
-                n = max(1, int(len(zone_tokens) * realism_level * 0.3))
-                enhancements.extend(random.sample(zone_tokens, n))
+                candidates.extend(random.sample(zone_tokens, 1))
 
-        enhancement_str = ", ".join(enhancements)
-        return f"{prompt}, {enhancement_str}"
+        # Add tokens one by one until budget is hit
+        added = []
+        budget = remaining - 2  # account for leading ", "
+        for token in candidates:
+            cost = len(token) + 2  # ", " separator
+            if budget >= cost:
+                added.append(token)
+                budget -= cost
+
+        if not added:
+            return prompt
+
+        return f"{prompt}, {', '.join(added)}"
 
     def enhance_negative(self, negative: str) -> str:
         """Enhance negative prompt with anti-AI-artifact tokens."""
