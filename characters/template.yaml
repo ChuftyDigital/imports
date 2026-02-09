@@ -1,0 +1,177 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER TEMPLATE
+# ============================================================================
+# This template defines every attribute needed to generate consistent,
+# realistic character imagery. Each field maps directly to prompt tokens
+# injected into the generation pipeline.
+#
+# INSTRUCTIONS:
+# 1. Copy this file to roster/<character_id>.yaml
+# 2. Fill in ALL fields — empty fields will produce generic results
+# 3. Be SPECIFIC — "honey blonde with subtle strawberry highlights"
+#    is far better than "blonde"
+# 4. Cross-reference across characters to ensure roster diversity
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: ""              # Unique slug: lowercase, no spaces (e.g., "aria_nova")
+display_name: ""              # Public-facing name (e.g., "Aria Nova")
+tagline: ""                   # One-line persona summary for prompt context
+age_appearance: 0             # Visual age (18-35 range)
+ethnicity: ""                 # Specific ethnicity for accurate features
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: ""                   # oval, round, heart, square, oblong, diamond
+  jawline: ""                 # soft, defined, angular, rounded
+  cheekbones: ""              # high and prominent, subtle, wide-set
+  forehead: ""                # broad, narrow, high, low
+  chin: ""                    # pointed, rounded, cleft, square
+  skin_tone: ""               # Very specific: "warm olive with golden undertone"
+  skin_texture: ""            # "porcelain smooth", "light freckles across nose and cheeks"
+  complexion_details: ""      # Moles, beauty marks, dimples — specifics add realism
+
+eyes:
+  shape: ""                   # almond, round, hooded, monolid, upturned, downturned
+  color: ""                   # Specific: "deep emerald green with amber flecks near pupil"
+  size: ""                    # large, medium, proportional
+  lashes: ""                  # "naturally thick and dark", "long and curled"
+  brow_shape: ""              # "softly arched", "straight and full", "high arch"
+  brow_color: ""              # Can differ from hair: "dark brown, slightly darker than hair"
+  distinctive: ""             # Any unique eye features
+
+nose:
+  shape: ""                   # button, straight, aquiline, snub, broad, narrow
+  size: ""                    # petite, proportional, prominent
+  bridge: ""                  # high, low, straight, slightly curved
+  tip: ""                     # rounded, pointed, upturned
+  nostrils: ""                # narrow, flared, proportional
+
+lips:
+  shape: ""                   # full, thin, bow-shaped, wide, heart-shaped
+  upper_lip: ""               # "defined cupid's bow", "naturally full"
+  lower_lip: ""               # "slightly fuller than upper", "pouty"
+  color: ""                   # Natural: "deep rose pink", "mauve with warm undertone"
+  texture: ""                 # "naturally glossy", "soft matte"
+
+hair:
+  color: ""                   # Ultra-specific: "rich chestnut brown with caramel balayage"
+  natural_color: ""           # If dyed, what's the root color?
+  length: ""                  # "mid-back length", "shoulder-length", "pixie cut"
+  texture: ""                 # "loose waves", "pin-straight and silky", "tight curls"
+  volume: ""                  # "thick and voluminous", "fine and sleek"
+  parting: ""                 # "deep side part on left", "center part"
+  bangs: ""                   # "curtain bangs framing face", "none", "blunt fringe"
+  signature_style: ""         # Default hairstyle: "usually worn in loose beach waves"
+  alternative_styles: []      # List of other styles for variety
+
+body:
+  height_description: ""      # "tall and statuesque (5'9\")", "petite (5'2\")"
+  build: ""                   # "athletic with feminine curves", "slender", "curvy hourglass"
+  bust: ""                    # "medium-full, natural", "petite", "full and round"
+  waist: ""                   # "narrow", "defined", "natural"
+  hips: ""                    # "wide with smooth curves", "narrow and athletic"
+  legs: ""                    # "long and toned", "shapely"
+  shoulders: ""               # "narrow and delicate", "athletic"
+  skin_details: ""            # Tattoos, birthmarks, scars — "small lotus tattoo on right wrist"
+  fitness_level: ""           # "toned with visible muscle definition", "soft and natural"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: ""        # "minimalist Scandinavian chic", "Y2K glamour"
+  color_palette: []            # Signature colors: ["dusty rose", "cream", "sage green"]
+  fashion_era: ""              # "contemporary with 90s influence"
+  brands_vibe: ""              # "Zara meets Reformation", "Skims aesthetic"
+  jewelry_signature: ""        # "delicate gold layered necklaces, small hoop earrings"
+  accessories: ""              # "round tortoiseshell sunglasses, minimal watches"
+  makeup_style: ""             # "natural 'no makeup' look with subtle highlight"
+  nail_style: ""               # "short, clean, natural or soft pink"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: ""       # "warm, knowing smile with slight head tilt"
+  eye_contact: ""              # "direct and confident", "coy and playful"
+  energy: ""                   # "approachable warmth", "mysterious allure"
+  signature_pose_notes: ""     # "often touches hair", "hand on hip"
+  mood_range: []               # ["confident", "playful", "sultry", "candid", "thoughtful"]
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations: []        # ["modern apartment", "coastal beach", "urban cafe"]
+  lighting_preference: ""      # "golden hour natural light", "soft studio ring light"
+  season_aesthetic: ""         # "perpetual late summer"
+  indoor_style: ""             # "minimalist with warm textures, natural materials"
+  outdoor_style: ""            # "sun-drenched Mediterranean vibes"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles: []        # ["casual streetwear", "business casual", "activewear"]
+    typical_scenarios: []      # ["coffee shop selfie", "gym mirror shot", "sunset portrait"]
+    mood: ""                   # "friendly, approachable, lifestyle-focused"
+    composition_notes: ""      # "upper body or full body, lifestyle context"
+
+  suggestive:
+    clothing_styles: []        # ["bodycon dress", "crop top and high-waist", "swimwear"]
+    typical_scenarios: []      # ["beach sunset", "hotel room mirror", "pool day"]
+    mood: ""                   # "confident, flirty, fashion-forward"
+    composition_notes: ""      # "emphasis on curves, fashion, beauty"
+
+  spicy:
+    clothing_styles: []        # ["lingerie", "sheer fabrics", "bikini micro"]
+    typical_scenarios: []      # ["bedroom morning light", "bath scene", "boudoir"]
+    mood: ""                   # "intimate, seductive, artistic"
+    composition_notes: ""      # "sensual poses, dramatic lighting, artistic framing"
+
+  nsfw:
+    clothing_styles: []        # ["nude", "open lingerie", "barely-there"]
+    typical_scenarios: []      # ["bedroom", "shower", "private photoshoot"]
+    mood: ""                   # "explicit, uninhibited, passionate"
+    composition_notes: ""      # "explicit content, varied poses, intimate angles"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  # LoRAs specific to this character (loaded via LoRA Manager)
+  loras: []                    # [{"name": "lora_file.safetensors", "weight": 0.7}]
+  # IP-Adapter reference images (placed in reference_images/<character_id>/)
+  faceid_reference: ""         # Primary face reference image filename
+  style_reference: ""          # Style reference image filename
+  composition_reference: ""    # Composition reference image filename
+  # Character-specific prompt tokens that should ALWAYS be included
+  mandatory_tokens: ""         # "1girl, solo" or "1boy, solo"
+  # Tokens that help the model understand this specific person
+  identity_tokens: ""          # Physical description condensed for prompt
+  # Negative tokens specific to this character
+  character_negatives: ""      # Things to avoid: "freckles" if character has none
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: ""            # "Close-up portrait capturing face and personality"
+    resolution: "3:4"          # Maps to RESOLUTIONS in config
+    framing: ""                # "close-up headshot, shoulders visible"
+    expression: ""             # Override default expression for this shot
+    background: ""             # "soft bokeh, neutral warm tones"
+    lighting: ""               # "butterfly lighting, soft fill, catch lights in eyes"
+    clothing: ""               # Specific outfit for this canonical image
+    additional_prompt: ""      # Any extra prompt tokens
+
+  three_quarter:
+    description: ""            # "3/4 body shot showing build and style"
+    resolution: "2:3"
+    framing: ""                # "mid-thigh crop, slight angle"
+    expression: ""
+    background: ""             # "lifestyle environment, blurred"
+    lighting: ""               # "natural window light, soft shadows"
+    clothing: ""
+    additional_prompt: ""
+
+  full_body:
+    description: ""            # "Full body establishing complete look"
+    resolution: "9:16"
+    framing: ""                # "full body, slight low angle for height"
+    expression: ""
+    background: ""             # "clean urban or nature backdrop"
+    lighting: ""               # "golden hour, rim light"
+    clothing: ""
+    additional_prompt: ""

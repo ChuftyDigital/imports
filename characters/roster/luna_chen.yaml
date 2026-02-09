@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Luna Chen
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "luna_chen"
+display_name: "Luna Chen"
+tagline: "Porcelain-skinned minimalist muse merging East Asian elegance with Parisian restraint"
+age_appearance: 22
+ethnicity: "Chinese/French"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "heart-shaped with delicate proportions"
+  jawline: "soft and refined, tapering to a narrow chin"
+  cheekbones: "high and flat, creating elegant planes of light"
+  forehead: "smooth, slightly high, framed by hair"
+  chin: "small and gently pointed"
+  skin_tone: "porcelain fair with cool pink undertones, flawless clarity"
+  skin_texture: "smooth and luminous, almost translucent quality with a natural lit-from-within glow"
+  complexion_details: "tiny beauty mark on right cheekbone, no freckles, even-toned complexion throughout"
+
+eyes:
+  shape: "monolid transitioning to subtle crease, elongated and elegant"
+  color: "deep dark brown, nearly black, with a glassy reflective quality and subtle warm undertone visible in light"
+  size: "medium, appearing larger due to masterful eye styling"
+  lashes: "straight and fine naturally, often styled with a precise curl, darkened"
+  brow_shape: "straight with a gentle soft arch at the tail, meticulously groomed"
+  brow_color: "cool-toned dark brown, precisely filled to match hair"
+  distinctive: "intense reflective quality in dark irises, eyes appear to hold depth, slight upward tilt at outer corners"
+
+nose:
+  shape: "softly rounded with a refined profile"
+  size: "petite and delicate"
+  bridge: "low to medium, smooth and straight"
+  tip: "small and slightly rounded"
+  nostrils: "narrow and compact"
+
+lips:
+  shape: "small but well-defined, naturally balanced"
+  upper_lip: "soft gentle arch with a subtle cupid's bow"
+  lower_lip: "proportional to upper, slightly fuller at center"
+  color: "cool-toned natural pink, like fresh rose petals"
+  texture: "smooth and naturally dewy"
+
+hair:
+  color: "blue-black with a glossy, almost lacquered shine — appears dark navy in certain light"
+  natural_color: "pure blue-black"
+  length: "long, reaching just below the bra line, cut with blunt precision at the ends"
+  texture: "pin-straight and impossibly sleek, each strand perfectly aligned"
+  volume: "medium density, sleek and controlled with natural weight keeping it smooth"
+  parting: "sharp center part, geometric precision"
+  bangs: "none, clean forehead line"
+  signature_style: "sleek, straight, and glossy with a geometric center part, hair tucked behind one ear"
+  alternative_styles:
+    - "low sleek ponytail with center part"
+    - "slicked-back chignon for editorial looks"
+    - "one-length bob just above shoulders"
+    - "half-up with architectural hair clips"
+
+body:
+  height_description: "slender and tall (5'8\")"
+  build: "willowy and elongated, runway-model proportions, narrow frame"
+  bust: "small and petite, natural A-cup shape"
+  waist: "very narrow and delicate"
+  hips: "narrow and straight, minimal curve for a columnar silhouette"
+  legs: "very long and slender, creating an elongated proportion"
+  shoulders: "narrow and sharp, well-defined collarbone"
+  skin_details: "no visible tattoos or marks, pristine porcelain skin throughout, visible collarbones and wrist bones"
+  fitness_level: "slim and naturally toned from pilates, lean without visible muscle bulk"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "architectural minimalism meets Parisian cool — clean lines, muted palette, quiet luxury"
+  color_palette:
+    - "pure white"
+    - "charcoal black"
+    - "dove grey"
+    - "camel"
+    - "navy"
+    - "soft blush barely-there pink"
+  fashion_era: "contemporary with mid-century minimalist influences, Jil Sander era"
+  brands_vibe: "The Row meets COS with Celine edge, quiet luxury embodied"
+  jewelry_signature: "single thin silver chain, architectural earrings (one at a time), minimalist silver cuff"
+  accessories: "structured leather micro bags, thin-framed rectangular glasses occasionally, silk scarves as minimalist accents"
+  makeup_style: "editorial clean — flawless porcelain base, sharp subtle liner, gradient lip in muted rose"
+  nail_style: "short, squared-off, always in milky white or transparent gloss"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "composed and contemplative with a subtle closed-mouth enigmatic expression, chin slightly lowered"
+  eye_contact: "steady, measured, and penetrating — the stillness commands attention"
+  energy: "quiet intensity, intellectual cool, controlled elegance with moments of unexpected warmth"
+  signature_pose_notes: "chin slightly lowered with eyes looking up through lashes, hands placed deliberately, angular poses"
+  mood_range:
+    - "coolly contemplative"
+    - "quietly amused"
+    - "intensely focused"
+    - "rare warm genuine smile"
+    - "editorial severity"
+    - "softly vulnerable"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "minimalist gallery space with white walls and concrete floors"
+    - "modern apartment with floor-to-ceiling windows overlooking a city skyline"
+    - "clean architectural spaces with geometric shadows"
+    - "quiet high-end cafe with marble surfaces"
+    - "Japanese zen garden or contemporary museum"
+  lighting_preference: "clean directional light, sharp shadows, high contrast natural window light"
+  season_aesthetic: "crisp autumn or cool-toned winter clarity"
+  indoor_style: "white walls, concrete, glass, single sculptural object, negative space"
+  outdoor_style: "architectural exteriors, clean urban geometry, misty morning cityscapes"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "oversized structured blazer over slim trousers"
+      - "cashmere turtleneck in grey with tailored wide-leg pants"
+      - "minimalist shift dress in black or white"
+      - "silk button-down tucked into high-waisted pleated trousers"
+      - "longline wool coat over monochromatic base"
+    typical_scenarios:
+      - "standing in a gallery space, framed by geometric architecture"
+      - "seated at a marble cafe table, espresso in hand, reading"
+      - "walking through an autumn city street in structured outerwear"
+      - "working at a clean desk with architectural lamp, laptop, single flower"
+      - "portrait against a concrete wall with sharp directional shadow"
+    mood: "composed, intellectual, effortlessly elevated, editorial calm"
+    composition_notes: "clean compositions with negative space, geometric framing, high-fashion editorial feel, muted tones"
+
+  suggestive:
+    clothing_styles:
+      - "silk slip dress in charcoal with thin straps"
+      - "oversized men's white shirt as dress, top buttons open"
+      - "backless halter top with high-waisted tailored trousers"
+      - "sheer black turtleneck layered minimally"
+      - "structured corset top with flowing wide-leg pants"
+    typical_scenarios:
+      - "silhouetted in floor-to-ceiling window at dusk, city lights behind"
+      - "lying on white minimalist sofa, hair fanned out"
+      - "hotel room in silk robe, standing at window, back partially visible"
+      - "seated on floor in oversized shirt, legs drawn up, looking at camera"
+      - "evening rooftop, wind catching silk dress fabric"
+    mood: "controlled allure, intellectual sensuality, the tension of restraint"
+    composition_notes: "architectural framing, play of concealment and revelation, sharp light and shadow, suggestion through geometry"
+
+  spicy:
+    clothing_styles:
+      - "sheer black bodysuit with high neck"
+      - "silk bralette and matching high-waisted briefs in dove grey"
+      - "open white dress shirt with nothing underneath, artfully draped"
+      - "minimal black lingerie set, architectural cut"
+      - "nude mesh dress with strategic opacity"
+    typical_scenarios:
+      - "morning light through venetian blinds creating stripe shadows across body"
+      - "lying on white sheets, minimal coverage, geometric shadow play"
+      - "standing in doorframe, backlit, silhouette revealing form"
+      - "seated in modernist chair, legs crossed, looking directly at camera"
+      - "bathroom scene with clean marble, mirror reflection"
+    mood: "precise intimacy, sculptural sensuality, body as architecture, controlled tension"
+    composition_notes: "shadow play is essential, body as compositional element, high contrast black and white aesthetic, negative space"
+
+  nsfw:
+    clothing_styles:
+      - "nude with single sheet draped across hips"
+      - "open silk robe in black, hanging off shoulders"
+      - "sheer mesh top, bare from waist down"
+      - "fully nude, posed sculpturally"
+      - "single piece of jewelry only — thin silver chain"
+    typical_scenarios:
+      - "nude on white sheets, geometric pose, morning light"
+      - "standing nude at window, sharp city-light silhouette"
+      - "reclining on minimalist furniture, body as sculpture"
+      - "shower scene, water on porcelain skin, clean tile backdrop"
+      - "bedroom scene with dramatic single-source side lighting"
+    mood: "artistic, sculptural, body celebrated as form, controlled and deliberate"
+    composition_notes: "body treated as architecture, sharp lighting, high contrast, clean compositions, artistic nude aesthetic"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "luna_chen_face_ref_01.png"
+  style_reference: "luna_chen_style_ref_01.png"
+  composition_reference: "luna_chen_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "luna_chen, 22yo Chinese-French woman, porcelain fair skin with cool pink undertone, deep dark brown monolid eyes with glassy quality, blue-black pin-straight sleek hair with center part, heart-shaped face, small petite nose, cool-pink natural lips, beauty mark right cheekbone, very slender willowy build, narrow hips, prominent collarbones, long legs"
+  character_negatives: "tan skin, curly hair, freckles, large bust, round face, warm skin tones, heavy makeup, colorful clothing"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Striking close-up showcasing Luna's porcelain complexion and intense dark eyes"
+    resolution: "3:4"
+    framing: "tight close-up from collarbone up, straight-on with chin slightly lowered, eyes looking directly at camera"
+    expression: "enigmatic, mouth closed, subtle intensity in eyes, composed and magnetic"
+    background: "pure white or very light grey, clean and minimal"
+    lighting: "soft beauty light from above, clean fill, sharp catch lights in dark eyes, subtle shadow under jawline"
+    clothing: "black cashmere turtleneck, thin silver chain necklace barely visible at neckline"
+    additional_prompt: "porcelain skin detail, blue-black hair gleaming, editorial beauty shot, perfectly groomed straight brows, 100mm macro portrait, pristine skin texture"
+
+  three_quarter:
+    description: "Editorial 3/4 shot highlighting Luna's architectural fashion sense and elongated silhouette"
+    resolution: "2:3"
+    framing: "knee-up crop, body angled 45 degrees, weight shifted to one hip, one hand in trouser pocket"
+    expression: "cool composure with the faintest hint of amusement, one corner of mouth barely lifted"
+    background: "minimalist white gallery space with single geometric sculpture visible, polished concrete floor"
+    lighting: "hard directional window light from the left creating sharp geometric shadows, high contrast"
+    clothing: "oversized structured charcoal wool blazer, crisp white silk shirt underneath, high-waisted black tailored trousers, pointed-toe leather mules"
+    additional_prompt: "fashion editorial quality, Vogue China aesthetic, clean sharp lines, architectural pose, negative space in composition"
+
+  full_body:
+    description: "Full-length shot establishing Luna's complete minimalist aesthetic and statuesque proportions"
+    resolution: "9:16"
+    framing: "full body centered, standing tall with deliberate posture, slight forward lean"
+    expression: "serene focus, looking slightly past camera, contemplative and composed"
+    background: "floor-to-ceiling glass window with soft cityscape beyond, clean modern interior, single design chair visible"
+    lighting: "cool-toned natural window light from behind and to the right, soft fill from the front, creating a gentle rim light on hair"
+    clothing: "long camel wool coat over all-black ensemble — black knit top, black wide-leg trousers, black pointed leather boots, structured black leather micro bag"
+    additional_prompt: "elongated proportions, editorial full body, clean modern architecture, quiet luxury aesthetic, professional fashion photography"

@@ -1,0 +1,223 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Maya Okafor
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "maya_okafor"
+display_name: "Maya Okafor"
+tagline: "Afrofuturist queen channeling Nigerian royalty through a sci-fi fashion lens"
+age_appearance: 26
+ethnicity: "Nigerian (Igbo)"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with strong, regal proportions"
+  jawline: "defined and angular, creating a striking profile"
+  cheekbones: "extremely high and prominent, sculptural, catching highlights dramatically"
+  forehead: "broad and smooth, often accentuated as a feature"
+  chin: "gently rounded with strength"
+  skin_tone: "deep rich brown with cool blue-black undertones, luminous and even"
+  skin_texture: "smooth and radiant with a natural inner glow, even-toned with a healthy sheen"
+  complexion_details: "flawless deep complexion, subtle natural highlight on cheekbones and nose bridge, no visible marks"
+
+eyes:
+  shape: "large and round with a slight upward tilt at outer corners"
+  color: "deep brown-black with warm amber highlights around the pupil visible in bright light, intensely dark"
+  size: "large and commanding"
+  lashes: "naturally thick, dark, and voluminous with dramatic length"
+  brow_shape: "strong and sculpted with a high arch, bold and defined"
+  brow_color: "natural deep black-brown"
+  distinctive: "intensely expressive with a regal quality, whites of eyes create striking contrast against deep iris"
+
+nose:
+  shape: "broad and strong with a refined bridge"
+  size: "prominent and proportional to face"
+  bridge: "low and smooth, widening at the base"
+  tip: "rounded and full"
+  nostrils: "gently flared, natural and beautiful"
+
+lips:
+  shape: "full and generous, naturally prominent"
+  upper_lip: "full with a softly defined cupid's bow"
+  lower_lip: "very full and rounded, naturally pouty"
+  color: "deep plum-brown with darker edges and richer pigment at center"
+  texture: "smooth with a natural satin finish"
+
+hair:
+  color: "natural deep black with a blue-violet sheen under direct light"
+  natural_color: "pure deep black"
+  length: "varies — natural hair is shoulder-length when stretched, often styled in elaborate protective styles"
+  texture: "tight 4C coils, dense and springy with beautiful shrinkage pattern"
+  volume: "extremely voluminous and full, clouds of coils when worn out"
+  parting: "varies with style, no fixed part in natural state"
+  bangs: "none in natural state, sometimes styled with sculpted baby hair edges"
+  signature_style: "sculptural updo or bold geometric protective style — braids, twists, or structured locs as wearable art"
+  alternative_styles:
+    - "massive blown-out afro with metallic accessories"
+    - "waist-length goddess locs with gold cuffs"
+    - "geometric flat-twist updo"
+    - "cornrows feeding into a high sculptural bun"
+    - "Bantu knots with gold rings"
+
+body:
+  height_description: "tall and statuesque (5'10\")"
+  build: "commanding and curvaceous, strong and feminine"
+  bust: "full and round, naturally prominent"
+  waist: "defined with a dramatic curve inward"
+  hips: "wide and generous with smooth round curves"
+  legs: "long and shapely with strong thighs and defined calves"
+  shoulders: "broad and strong, creating a powerful silhouette"
+  skin_details: "keloid scar artfully positioned on left upper arm (a small raised mark she embraces), deep melanin-rich skin glows in any light"
+  fitness_level: "strong and toned with visible glute and thigh definition, full-bodied with athletic undertone"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "Afrofuturist glam — bold metallics, structural silhouettes, African-inspired prints reimagined through a sci-fi lens"
+  color_palette:
+    - "electric cobalt blue"
+    - "metallic gold"
+    - "deep purple"
+    - "stark white"
+    - "emerald green"
+    - "chrome silver"
+  fashion_era: "futuristic with deep roots in traditional Nigerian and pan-African aesthetics"
+  brands_vibe: "Lisa Folawiyo meets Iris van Herpen, with Mugler edge and traditional Ankara boldness"
+  jewelry_signature: "oversized sculptural gold ear cuffs, stacked metal bangles, statement neck pieces inspired by Igbo royal jewelry"
+  accessories: "geometric metallic clutches, beaded waist chains, structural headpieces for editorial looks"
+  makeup_style: "bold and editorial — graphic liner, metallic eyeshadow, sculpted highlight on deep skin, bold lip in cobalt or gold"
+  nail_style: "long stiletto or coffin shape, bold colors — metallic gold, cobalt blue, or intricate nail art"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "powerful and self-assured, chin lifted, eyes commanding, mouth set with quiet strength and the hint of a knowing smile"
+  eye_contact: "direct, unflinching, and regal — a queen surveying her domain"
+  energy: "magnetic authority, creative power, unapologetic presence that fills any room"
+  signature_pose_notes: "chin lifted, shoulders back, hands on hips or one hand touching sculptural jewelry, power stances"
+  mood_range:
+    - "regal and commanding"
+    - "fiercely joyful"
+    - "intensely creative"
+    - "warmly maternal"
+    - "provocatively powerful"
+    - "serene inner peace"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "futuristic set with metallic and glass architectural elements"
+    - "art gallery with large-scale contemporary African art"
+    - "rooftop overlooking Lagos or a major city skyline at night"
+    - "studio with colored gel lighting and geometric props"
+    - "lush tropical garden with modern architectural elements"
+  lighting_preference: "dramatic colored gels, strong directional key light, metallic reflections, bold contrast"
+  season_aesthetic: "seasonless — exists outside of time, futuristic-eternal"
+  indoor_style: "high-concept spaces with metallic surfaces, colored lighting, geometric shapes, art installations"
+  outdoor_style: "dramatic night cityscapes, tropical gardens with modern sculpture, architectural exteriors"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "structured Ankara print blazer with matching wide-leg pants"
+      - "metallic pleated maxi skirt with sculptural crop top"
+      - "full-length embroidered caftan with geometric patterns"
+      - "tailored jumpsuit in electric cobalt with gold hardware"
+      - "asymmetrical draped dress with one shoulder and sculptural detail"
+    typical_scenarios:
+      - "posed in front of large-scale contemporary art installation"
+      - "standing on rooftop at blue hour, city lights behind, bold silhouette"
+      - "seated on geometric metallic furniture in editorial studio"
+      - "walking through futuristic architectural corridor"
+      - "portrait with elaborate hair sculpture and bold jewelry"
+    mood: "powerful, editorial, fashion-forward, culturally rooted and future-focused"
+    composition_notes: "bold compositions, strong diagonals, dramatic lighting, emphasize statuesque figure and structural fashion"
+
+  suggestive:
+    clothing_styles:
+      - "high-slit metallic gown with plunging neckline"
+      - "beaded two-piece with exposed midriff, inspired by traditional ceremony wear"
+      - "sheer mesh overlay dress with strategic embellished panels"
+      - "micro metallic mini dress with structural shoulders"
+      - "body chain over sleek bodysuit"
+    typical_scenarios:
+      - "dramatic studio shoot with colored gel lighting, purple and gold"
+      - "penthouse suite at night, wrapped in shimmering gold fabric"
+      - "poolside in metallic bikini with bold accessories"
+      - "nightclub VIP setting, blue neon lighting"
+      - "standing in rain with metallic fabric clinging to curves"
+    mood: "commanding sensuality, powerful allure, body as art"
+    composition_notes: "dramatic lighting essential, emphasize curves and strong silhouette, bold colors and metallics"
+
+  spicy:
+    clothing_styles:
+      - "sheer beaded bodysuit, strategically opaque"
+      - "gold chain harness over minimal coverage"
+      - "metallic string bikini with body chains"
+      - "open metallic robe with lingerie beneath"
+      - "mesh and metallic cut-out bodysuit"
+    typical_scenarios:
+      - "studio with dramatic purple and gold lighting, artistic posing"
+      - "luxury bath with gold fixtures, metallic accents"
+      - "bedroom with rich jewel-toned fabrics, candlelight and gold"
+      - "body art photoshoot with metallic body paint"
+      - "rooftop at night, wind catching sheer fabrics"
+    mood: "powerful, uninhibited, body worship, regal sensuality"
+    composition_notes: "celebrate body shape, dramatic lighting on deep skin, metallic highlights, artistic and bold compositions"
+
+  nsfw:
+    clothing_styles:
+      - "nude with gold body chain jewelry only"
+      - "open gold robe, body fully visible"
+      - "sheer mesh, effectively nude"
+      - "topless with beaded waist chain and matching bottoms"
+      - "artistic nude with metallic body paint accents"
+    typical_scenarios:
+      - "artistic studio shoot, sculptural nude posing with dramatic single light"
+      - "luxury bedroom with rich fabrics and warm lighting"
+      - "standing nude silhouette against city lights"
+      - "body painted with metallic gold accents, art piece"
+      - "in water, natural hot spring or luxury tub, skin glistening"
+    mood: "powerful, celebratory, body-positive, uninhibited goddess energy"
+    composition_notes: "celebrate deep melanin-rich skin, dramatic lighting creating highlights and shadows, powerful poses even in vulnerability, artistic approach"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "maya_okafor_face_ref_01.png"
+  style_reference: "maya_okafor_style_ref_01.png"
+  composition_reference: "maya_okafor_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "maya_okafor, 26yo Nigerian Igbo woman, deep rich brown skin with cool blue-black undertone, large round dark brown-black eyes, full generous lips with deep plum-brown color, extremely high prominent cheekbones, broad nose with rounded tip, 4C natural hair in sculptural style, tall statuesque 5'10\" build, full bust, wide hips, defined waist, strong shoulders, broad forehead, bold sculpted brows"
+  character_negatives: "light skin, straight hair, thin lips, narrow nose, small frame, subtle makeup, muted colors, pale complexion"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Regal close-up portrait showcasing Maya's striking bone structure and dramatic Afrofuturist styling"
+    resolution: "3:4"
+    framing: "close-up from upper chest, straight-on with chin lifted slightly, direct eye contact"
+    expression: "powerful and regal, slight upward tilt of chin, eyes intense and commanding, mouth relaxed with strength"
+    background: "deep midnight blue with subtle metallic gold light accents, studio setting"
+    lighting: "dramatic beauty lighting with strong key from above right, gold-toned fill light, brilliant highlights on cheekbones and forehead, catch lights in dark eyes"
+    clothing: "sculptural gold neck piece covering shoulders, geometric gold ear cuffs, minimal top visible — the jewelry is the outfit"
+    additional_prompt: "luminous deep skin catching every light, sculptural cornrows feeding into high bun with gold cuffs, editorial beauty, bold graphic blue eyeliner, gold highlight on cheekbones, 85mm portrait, deep melanin glow"
+
+  three_quarter:
+    description: "Fashion editorial 3/4 showing Maya's powerful silhouette and Afrofuturist fashion"
+    resolution: "2:3"
+    framing: "knee-up, power stance, hands on hips, body facing forward with slight angle"
+    expression: "fierce confidence, mouth slightly parted, eyes blazing with creative energy"
+    background: "futuristic corridor with blue LED strip lighting and reflective metallic walls"
+    lighting: "blue and purple gel lights from sides, strong white key light from above, creating rim light around silhouette"
+    clothing: "structured metallic cobalt blue blazer with exaggerated shoulders, matching high-waisted wide-leg pants, gold belt with geometric clasp, stacked gold bangles on both wrists"
+    additional_prompt: "goddess locs with gold cuffs reaching below shoulders, metallic stiletto nails in gold, power stance, futuristic fashion editorial, strong angular silhouette"
+
+  full_body:
+    description: "Full body establishing Maya's commanding presence and complete Afrofuturist aesthetic"
+    resolution: "9:16"
+    framing: "full body, slight low angle to emphasize height and power, centered with strong vertical lines"
+    expression: "serene power, slight smile suggesting she knows something we do not, gazing directly at camera"
+    background: "rooftop at blue hour, city skyline out of focus behind, metallic railing elements visible"
+    lighting: "golden hour meets blue hour, warm rim light from setting sun, cool blue ambient, dramatic contrast"
+    clothing: "flowing metallic gold pleated maxi skirt catching wind, structured black crop top with geometric cut-outs, multiple layered necklaces from choker to sternum, gold cuff bracelets, strappy metallic gold heels"
+    additional_prompt: "massive voluminous blown-out afro with golden sheen, full body head to toe, wind catching skirt fabric creating movement, powerful goddess energy, editorial fashion photography, dramatic sky"

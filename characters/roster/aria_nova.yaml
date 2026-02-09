@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Aria Nova
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "aria_nova"
+display_name: "Aria Nova"
+tagline: "Sun-kissed bohemian muse blending Italian elegance with Brazilian warmth"
+age_appearance: 24
+ethnicity: "Italian/Brazilian"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with softly angular features"
+  jawline: "defined but feminine, gently tapering"
+  cheekbones: "naturally high and sculpted, catching light beautifully"
+  forehead: "medium height, smooth and proportional"
+  chin: "delicately pointed with a subtle cleft"
+  skin_tone: "warm olive with rich golden undertones, sun-kissed glow"
+  skin_texture: "smooth with a natural luminous quality, faint sun freckles across the bridge of nose in summer"
+  complexion_details: "small beauty mark above the left side of upper lip, subtle dimple on right cheek when smiling"
+
+eyes:
+  shape: "large almond-shaped, slightly upturned at outer corners"
+  color: "rich hazel-green with golden amber sunburst around the pupil, darker olive ring at iris edge"
+  size: "large and expressive"
+  lashes: "naturally thick, dark, and long with a natural upward curl"
+  brow_shape: "full and softly arched with a natural feathered texture"
+  brow_color: "dark espresso brown, matching natural hair color"
+  distinctive: "flecks of gold visible in direct sunlight, eyes appear to shift between green and amber depending on lighting"
+
+nose:
+  shape: "straight with a very subtle aquiline curve"
+  size: "proportional and elegant"
+  bridge: "high and narrow, slightly defined"
+  tip: "softly rounded with a refined lift"
+  nostrils: "narrow and delicate"
+
+lips:
+  shape: "full and naturally pillowy"
+  upper_lip: "well-defined cupid's bow with soft peaks"
+  lower_lip: "noticeably fuller than upper, creating a natural pout"
+  color: "warm dusty rose with a deeper berry tone at the center"
+  texture: "naturally smooth with a subtle sheen"
+
+hair:
+  color: "rich dark chestnut brown with sun-lightened caramel and honey balayage through mid-lengths and ends"
+  natural_color: "deep chestnut brown"
+  length: "long, reaching mid-back when straight, rests just below shoulders when wavy"
+  texture: "loose natural waves with a slight S-pattern, effortlessly tousled"
+  volume: "thick and voluminous with natural body and movement"
+  parting: "center part, occasionally a soft side part on the left"
+  bangs: "long curtain bangs that frame the face, parting naturally to either side"
+  signature_style: "worn in loose, undone waves with curtain bangs, as if air-dried after a day at the beach"
+  alternative_styles:
+    - "braided crown with loose tendrils"
+    - "low messy bun with face-framing pieces"
+    - "half-up half-down with twisted sections"
+    - "sleek middle-part blowout for evening looks"
+
+body:
+  height_description: "tall and willowy (5'8\")"
+  build: "lean with soft feminine curves, elongated torso and limbs"
+  bust: "medium-full, natural with a gentle round shape"
+  waist: "naturally narrow with a defined but not exaggerated taper"
+  hips: "gently curved, proportional to shoulders"
+  legs: "long and slender with subtle toning"
+  shoulders: "straight and proportional, slightly narrow"
+  skin_details: "tiny constellation of three freckles on left shoulder blade, faint tan lines in summer"
+  fitness_level: "naturally toned from yoga and dance, lean muscle definition without bulk"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "bohemian chic with Italian sophistication — earthy, romantic, and effortlessly put-together"
+  color_palette:
+    - "terracotta"
+    - "warm cream"
+    - "olive green"
+    - "burnt sienna"
+    - "dusty gold"
+    - "sun-faded rust"
+  fashion_era: "contemporary with strong 70s bohemian and Mediterranean influences"
+  brands_vibe: "Faithfull the Brand meets Cult Gaia with touches of Zimmermann"
+  jewelry_signature: "layered gold coin necklaces, thin stacking rings, small hammered gold hoop earrings"
+  accessories: "woven straw bags, round tortoiseshell sunglasses, thin leather belts, silk scarves as hair ties"
+  makeup_style: "sun-kissed natural glow — bronzed cheeks, barely-there eye makeup, tinted lip balm in warm tones"
+  nail_style: "natural or short almond-shaped with warm nude or soft terracotta polish"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "warm, inviting smile with a slight squint as if caught in golden light, head tilted softly"
+  eye_contact: "warm and direct but gentle, as if sharing a secret with a close friend"
+  energy: "grounded warmth and free-spirited ease, radiates calm sensuality"
+  signature_pose_notes: "often runs fingers through hair, looks over shoulder, one hand resting on collarbone"
+  mood_range:
+    - "serene and contemplative"
+    - "playfully sun-drunk"
+    - "warmly flirtatious"
+    - "candidly laughing"
+    - "dreamily romantic"
+    - "quietly confident"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "Mediterranean terrace with climbing bougainvillea"
+    - "sun-drenched linen-draped bedroom"
+    - "outdoor farmers market with rustic wooden stalls"
+    - "golden wheat field at sunset"
+    - "bohemian-styled studio apartment with macrame and warm textiles"
+  lighting_preference: "golden hour natural light, warm and directional, soft lens flare"
+  season_aesthetic: "perpetual late summer into early autumn, warm and golden"
+  indoor_style: "warm Mediterranean terracotta tiles, linen fabrics, dried flowers, natural wood"
+  outdoor_style: "sunlit European countryside, olive groves, coastal cliffs, wildflower meadows"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "flowing midi skirt with tucked-in linen blouse"
+      - "wide-leg trousers and cropped knit top"
+      - "maxi sundress in warm floral print"
+      - "oversized linen shirt as dress with woven belt"
+      - "high-waisted jeans with off-shoulder peasant top"
+    typical_scenarios:
+      - "sipping espresso at a sidewalk cafe, morning light"
+      - "walking through a flower market holding a wrapped bouquet"
+      - "reading a book on a terrace with trailing ivy"
+      - "sunset portrait in a wheat field, wind catching her hair"
+      - "cooking in a rustic kitchen, flour-dusted apron"
+    mood: "warm, approachable, effortlessly beautiful — like a travel editorial"
+    composition_notes: "natural lifestyle framing, environmental context is key, golden warm tones throughout"
+
+  suggestive:
+    clothing_styles:
+      - "backless linen maxi dress with thin straps"
+      - "high-slit wrap skirt with bralette top"
+      - "one-piece swimsuit in burnt terracotta"
+      - "cropped crochet top with flowing palazzo pants"
+      - "off-shoulder bodycon midi dress in olive"
+    typical_scenarios:
+      - "lounging on a Mediterranean poolside daybed"
+      - "walking along a beach at golden hour, dress flowing"
+      - "leaning against a sun-warmed stone wall in a coastal village"
+      - "sitting on the edge of an infinity pool overlooking the sea"
+      - "morning stretch on a balcony wrapped in a sheer sarong"
+    mood: "sensual warmth, sun-soaked confidence, romantic and inviting"
+    composition_notes: "emphasis on flowing fabrics and movement, warm skin tones highlighted, natural curves accentuated by light"
+
+  spicy:
+    clothing_styles:
+      - "sheer lace bodysuit in warm nude"
+      - "silk slip dress with plunging neckline"
+      - "string bikini with sheer sarong cover-up"
+      - "lace-trimmed camisole and matching shorts"
+      - "open-back knit mini dress"
+    typical_scenarios:
+      - "bedroom morning light filtering through linen curtains"
+      - "outdoor shower at a villa, sun catching water droplets"
+      - "lying in rumpled white sheets, looking over shoulder"
+      - "candlelit bath with scattered flower petals"
+      - "rooftop golden hour in silk robe, partially open"
+    mood: "intimate, softly seductive, romantic and warm, artistic sensuality"
+    composition_notes: "sensual posing, play of light and shadow on skin, warm intimate atmosphere, focus on curves and skin texture"
+
+  nsfw:
+    clothing_styles:
+      - "nude with strategically draped linen"
+      - "open silk robe revealing body"
+      - "sheer mesh bodysuit"
+      - "topless with flowing skirt"
+      - "barely-there lace lingerie set"
+    typical_scenarios:
+      - "sunlit bedroom, tangled in white sheets"
+      - "outdoor secluded garden shower"
+      - "reclining on a chaise lounge in golden light"
+      - "standing at a window, silhouetted by sunset"
+      - "bath scene with soft candlelight"
+    mood: "uninhibited, passionate, naturally sensual, warm and inviting"
+    composition_notes: "artistic nude compositions, golden hour lighting emphasis, natural body celebration, warm tones throughout"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "aria_nova_face_ref_01.png"
+  style_reference: "aria_nova_style_ref_01.png"
+  composition_reference: "aria_nova_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "aria_nova, 24yo Italian-Brazilian woman, warm olive skin with golden undertone, large hazel-green eyes with amber sunburst, full naturally pillowy lips with defined cupid's bow, dark chestnut brown hair with caramel balayage, long loose waves with curtain bangs, beauty mark above left upper lip, high cheekbones, tall lean build, subtle dimple right cheek"
+  character_negatives: "pale skin, blue eyes, straight hair, short hair, heavy makeup, tattoos on visible areas, round face"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Intimate close-up capturing Aria's sun-kissed warmth and magnetic hazel-green eyes"
+    resolution: "3:4"
+    framing: "close-up from mid-chest up, slight three-quarter angle favoring left side, chin subtly lifted"
+    expression: "warm, knowing half-smile, eyes soft and inviting with a gentle squint, head tilted slightly right"
+    background: "soft bokeh of warm golden and green tones, suggesting a sunlit garden out of focus"
+    lighting: "golden hour key light from upper left, warm fill light, prominent catch lights in both eyes, subtle rim light on hair"
+    clothing: "off-shoulder cream linen blouse, gold coin pendant necklace resting on collarbone"
+    additional_prompt: "wind gently lifting curtain bangs, skin glowing with natural warmth, photo-realistic, 85mm portrait lens, shallow depth of field"
+
+  three_quarter:
+    description: "Lifestyle 3/4 shot showing Aria's bohemian style and relaxed Mediterranean energy"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled 30 degrees to camera, weight on back foot, one hand lightly touching layered necklaces"
+    expression: "candid mid-laugh, eyes crinkled with genuine joy, teeth slightly visible"
+    background: "terracotta-walled Mediterranean alley with climbing pink bougainvillea, slightly blurred"
+    lighting: "natural dappled sunlight through overhead foliage, warm and directional from the right"
+    clothing: "flowing terracotta midi skirt with high slit, tucked-in white linen peasant blouse, woven leather sandals, stacked gold bangles"
+    additional_prompt: "hair catching light, natural movement in skirt fabric, lifestyle editorial quality, environmental portrait"
+
+  full_body:
+    description: "Full body establishing shot showing Aria's complete look in her signature bohemian style"
+    resolution: "9:16"
+    framing: "full body with slight low angle for elongation, centered with environmental context on both sides"
+    expression: "serene and content, soft closed-mouth smile, gazing slightly off-camera to the left"
+    background: "golden hour wheat field stretching to horizon, warm sky with soft clouds"
+    lighting: "backlit golden hour with strong warm rim light creating a glow around hair and silhouette, soft frontal fill"
+    clothing: "flowing maxi sundress in warm floral print (rust, cream, sage), thin brown leather belt at waist, layered gold necklaces, woven basket bag in one hand"
+    additional_prompt: "wind creating movement in dress and hair, dreamy golden atmosphere, full body visible from head to sandaled feet, fashion editorial in nature setting"
