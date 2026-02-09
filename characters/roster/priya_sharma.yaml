@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Priya Sharma
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "priya_sharma"
+display_name: "Priya Sharma"
+tagline: "Bollywood glamour meets modern sophistication — radiant, bold, and unapologetically vibrant"
+age_appearance: 24
+ethnicity: "Indian"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with softly sculpted contours"
+  jawline: "smooth and feminine with a gentle taper"
+  cheekbones: "high and prominent, beautifully defined"
+  forehead: "medium height, smooth and symmetrical"
+  chin: "softly rounded with a delicate point"
+  skin_tone: "warm brown with a luminous golden undertone, naturally radiant"
+  skin_texture: "smooth and even with a natural healthy glow, porcelain-like clarity"
+  complexion_details: "small beauty mark on right cheek near cheekbone, subtle dimples on both cheeks when smiling broadly"
+
+eyes:
+  shape: "large almond-shaped with a gentle upward sweep at outer corners"
+  color: "deep dark brown, nearly black, with warm amber highlights visible in direct light"
+  size: "large and dramatically expressive"
+  lashes: "exceptionally thick, long, and jet black with a natural upward curl"
+  brow_shape: "full, naturally arched with a clean defined shape, slightly thick"
+  brow_color: "jet black, matching natural hair color"
+  distinctive: "intensely expressive quality, eyes appear to shimmer with warmth, dark limbal ring creating depth"
+
+nose:
+  shape: "straight with a gentle refined curve"
+  size: "proportional and elegant"
+  bridge: "medium height, smooth and defined"
+  tip: "softly rounded with a slight natural refinement"
+  nostrils: "proportional and delicate"
+
+lips:
+  shape: "full and naturally lush, wide with beautiful proportions"
+  upper_lip: "defined cupid's bow with generous fullness"
+  lower_lip: "plush and slightly fuller than upper, creating a natural sensual pout"
+  color: "deep rose with warm mauve undertone, naturally rich"
+  texture: "smooth with a natural satin finish"
+
+hair:
+  color: "jet black with subtle blue-black sheen in sunlight"
+  natural_color: "jet black"
+  length: "very long, reaching lower back, thick and luxuriant"
+  texture: "naturally straight with a subtle wave, silky and flowing"
+  volume: "exceptionally thick and voluminous with natural body"
+  parting: "deep side part on the right, occasionally center part for traditional looks"
+  bangs: "none, long layers framing the face starting at chin level"
+  signature_style: "worn loose and flowing with a deep side part, often with a slight curl at the ends"
+  alternative_styles:
+    - "elegant low side bun with jeweled pins"
+    - "long braid draped over one shoulder"
+    - "voluminous curled blowout with dramatic side sweep"
+    - "sleek high ponytail with wrapped base"
+
+body:
+  height_description: "medium height with commanding presence (5'6\")"
+  build: "medium curvy with soft feminine proportions, hourglass silhouette"
+  bust: "full and naturally rounded"
+  waist: "defined with a smooth feminine taper"
+  hips: "curvy and proportional, creating a balanced hourglass shape"
+  legs: "shapely and well-proportioned with soft toning"
+  shoulders: "proportional and softly rounded"
+  skin_details: "small henna-inspired mehndi tattoo on left inner wrist, subtle gold-toned skin throughout"
+  fitness_level: "soft and naturally toned from dance and yoga, feminine muscle tone without definition"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "Bollywood modern glam — rich colors, luxurious fabrics, bold jewelry with contemporary silhouettes"
+  color_palette:
+    - "deep magenta"
+    - "rich gold"
+    - "emerald green"
+    - "royal purple"
+    - "saffron orange"
+    - "warm ivory"
+  fashion_era: "contemporary with strong South Asian traditional influences and Bollywood glamour"
+  brands_vibe: "Sabyasachi meets modern Balmain, with Manish Malhotra evening sensibility"
+  jewelry_signature: "ornate gold jhumka earrings, layered gold and gemstone necklaces, stacking bangles in gold, statement maang tikka for special looks"
+  accessories: "embroidered clutches, silk dupatta scarves, delicate anklets, jeweled hair pins"
+  makeup_style: "bold and glamorous — dramatic kohl-lined eyes, warm bronze and gold eyeshadow, berry-toned lips, highlighted cheekbones"
+  nail_style: "almond-shaped, often in deep berry, rich gold, or nude with subtle shimmer"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "warm radiant smile with confident direct gaze, chin slightly lifted with regal poise"
+  eye_contact: "bold and direct with magnetic warmth, expressive and inviting"
+  energy: "vibrant confidence and joyful sensuality, commanding yet approachable warmth"
+  signature_pose_notes: "often tilts head with a knowing smile, hand gracefully placed at hip or touching jewelry, slight shoulder forward"
+  mood_range:
+    - "radiantly joyful"
+    - "boldly confident"
+    - "warmly flirtatious"
+    - "regally poised"
+    - "playfully mischievous"
+    - "intensely sensual"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "luxurious modern apartment with gold and marble accents"
+    - "vibrant Indian marketplace with colorful textiles"
+    - "rooftop terrace overlooking a city skyline at dusk"
+    - "ornate palace courtyard with arched columns and fountains"
+    - "modern high-rise penthouse with floor-to-ceiling windows"
+  lighting_preference: "warm golden light, dramatic directional lighting, rich saturated tones"
+  season_aesthetic: "warm monsoon season glow and festive autumn richness"
+  indoor_style: "opulent modern Indian — rich textiles, brass fixtures, marble surfaces, jewel-toned cushions"
+  outdoor_style: "vibrant urban India meets cosmopolitan nightlife, colorful streets and rooftop sunsets"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "contemporary saree draped with modern styling in rich silk"
+      - "embroidered anarkali suit in jewel tones"
+      - "tailored blazer with silk camisole and high-waisted trousers"
+      - "lehenga choli with intricate mirror work for festive looks"
+      - "chic midi dress in bold print with statement earrings"
+    typical_scenarios:
+      - "getting ready at a vanity mirror, adjusting gold jhumka earrings"
+      - "walking through a vibrant flower market holding marigold garlands"
+      - "sipping chai at a stylish cafe with warm lighting"
+      - "portrait against a colorful mural wall in urban setting"
+      - "attending a rooftop party at golden hour, city lights in background"
+    mood: "confident, radiant, fashion-forward — like a Bollywood lifestyle editorial"
+    composition_notes: "rich warm color grading, emphasis on jewelry and fabric details, vibrant backgrounds with cultural context"
+
+  suggestive:
+    clothing_styles:
+      - "deep-plunge saree blouse with sheer pallu drape"
+      - "backless halter top with high-slit silk skirt"
+      - "form-fitting gold sequin dress with thigh-high slit"
+      - "cropped choli top with low-rise embroidered palazzo pants"
+      - "one-shoulder draped gown in deep emerald"
+    typical_scenarios:
+      - "lounging on a silk-cushioned daybed in a palace courtyard"
+      - "leaning against a marble pillar at a luxury resort pool"
+      - "dancing at a private rooftop party, dress flowing with movement"
+      - "sitting on the edge of an infinity pool at sunset"
+      - "candlelit dinner setting, leaning forward across the table"
+    mood: "sensual confidence, magnetic allure, Bollywood dance-inspired energy"
+    composition_notes: "emphasis on curves and flowing fabric, warm golden skin tones highlighted, rich saturated color palette"
+
+  spicy:
+    clothing_styles:
+      - "sheer gold embroidered bodysuit with jeweled details"
+      - "silk slip dress in deep wine with plunging neckline"
+      - "ornate bralette with matching high-slit wrap skirt"
+      - "lace-trimmed silk teddy in rich magenta"
+      - "barely-there gold chain body jewelry over sheer fabric"
+    typical_scenarios:
+      - "bedroom draped in rich silk fabrics, warm candlelight"
+      - "private bath scene with rose petals and gold fixtures"
+      - "lying across a silk-covered chaise, looking over shoulder"
+      - "standing by a rain-streaked window, silk robe slipping off shoulder"
+      - "rooftop golden hour in ornate lingerie with sheer cover-up"
+    mood: "intimate and deeply sensual, warm and inviting, luxurious indulgence"
+    composition_notes: "rich warm lighting, play of gold and shadow on skin, ornate details in lingerie and setting, sensual artistic posing"
+
+  nsfw:
+    clothing_styles:
+      - "nude with draped gold silk strategically placed"
+      - "open silk robe in deep jewel tone revealing body"
+      - "sheer mesh bodysuit with gold embroidery"
+      - "topless with ornate gold body chain jewelry"
+      - "barely-there lace lingerie in deep magenta"
+    typical_scenarios:
+      - "silk-draped bed in candlelit room with gold accents"
+      - "luxurious marble bath with warm lighting"
+      - "standing silhouetted against floor-to-ceiling windows at night"
+      - "reclining on rich velvet cushions with gold trim"
+      - "private dressing room with ornate mirror, mid-undress"
+    mood: "uninhibited, passionately sensual, warm and magnetic, luxurious abandon"
+    composition_notes: "warm rich lighting throughout, gold accents complementing skin tone, artistic compositions celebrating natural beauty, opulent settings"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "priya_sharma_face_ref_01.png"
+  style_reference: "priya_sharma_style_ref_01.png"
+  composition_reference: "priya_sharma_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "priya_sharma, 24yo Indian woman, warm brown skin with golden undertone, large dark brown almond eyes with amber highlights, full lush lips with defined cupid's bow, jet black long thick hair with deep side part, high prominent cheekbones, beauty mark on right cheek, dimples when smiling, medium curvy hourglass build, bold kohl-lined eyes"
+  character_negatives: "pale skin, light eyes, thin lips, straight narrow hips, freckles, light hair, thin eyebrows, flat chest"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Close-up portrait capturing Priya's radiant golden-brown skin and dramatically expressive dark eyes"
+    resolution: "3:4"
+    framing: "close-up from mid-chest up, slight three-quarter angle favoring right side, chin gently lifted"
+    expression: "warm confident smile with bold direct gaze, eyes shimmering with warmth, subtle head tilt to the left"
+    background: "soft bokeh of warm gold and deep magenta tones, suggesting festive lights out of focus"
+    lighting: "warm directional key light from upper right, gold-toned fill, prominent catch lights in both eyes, subtle rim light catching hair sheen"
+    clothing: "deep emerald silk blouse with gold embroidery, ornate gold jhumka earrings, layered gold necklace with gemstone pendant"
+    additional_prompt: "rich warm color grading, skin glowing with golden warmth, intricate jewelry catching light, photo-realistic, 85mm portrait lens, shallow depth of field"
+
+  three_quarter:
+    description: "3/4 lifestyle shot showcasing Priya's modern Bollywood glamour and confident presence"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled 25 degrees to camera, one hand resting on hip, weight shifted to back foot"
+    expression: "playful smile mid-laugh, eyes bright with joy, head tilted slightly back"
+    background: "ornate palace courtyard with carved stone arches and warm evening lights, slightly blurred"
+    lighting: "golden hour warm light from the left, soft fill from ambient courtyard lighting, highlights on jewelry"
+    clothing: "contemporary styled saree in rich magenta silk with gold border, modern draped blouse, gold bangles stacked on both wrists, statement maang tikka"
+    additional_prompt: "fabric catching light and showing texture, confident stance, cultural elegance with modern edge, editorial quality, environmental portrait"
+
+  full_body:
+    description: "Full body establishing shot presenting Priya's complete look in vibrant modern Indian style"
+    resolution: "9:16"
+    framing: "full body with slight low angle, centered with architectural context on both sides"
+    expression: "regal and poised, soft knowing smile, gazing directly at camera with confident warmth"
+    background: "rooftop terrace at sunset with city skyline glowing in warm amber and purple tones"
+    lighting: "backlit sunset creating a warm golden halo around hair and silhouette, soft warm frontal fill from city lights"
+    clothing: "flowing lehenga skirt in deep royal purple with gold embroidery, fitted gold blouse, ornate dupatta draped over one shoulder, full gold jewelry set including earrings, necklace, bangles, and anklets"
+    additional_prompt: "wind gently lifting dupatta, dramatic sunset colors complementing outfit, full body visible from ornate hair piece to embroidered heels, Bollywood editorial grandeur"

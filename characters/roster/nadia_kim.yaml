@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Nadia Kim
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "nadia_kim"
+display_name: "Nadia Kim"
+tagline: "K-beauty street style icon merging Korean chic with American cool"
+age_appearance: 23
+ethnicity: "Korean/American"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "soft oval with gently rounded contours"
+  jawline: "softly defined with a smooth V-line taper"
+  cheekbones: "soft and rounded, naturally full and youthful"
+  forehead: "smooth and proportional, slightly rounded"
+  chin: "small and softly pointed, delicate V-shape"
+  skin_tone: "light with warm peachy-golden undertone, luminous glass-skin glow"
+  skin_texture: "exceptionally smooth and poreless with a dewy glass-skin finish, naturally luminous"
+  complexion_details: "tiny beauty mark below left eye near cheekbone, naturally flushed apple cheeks"
+
+eyes:
+  shape: "monolid with a smooth clean lid, slightly elongated with gentle upward tilt"
+  color: "deep warm brown, nearly black, with subtle warm chocolate undertone"
+  size: "medium with an elongated elegant shape"
+  lashes: "straight and naturally sparse, typically enhanced with careful mascara or subtle falsies"
+  brow_shape: "straight and natural with soft feathered texture, slightly arched at tail"
+  brow_color: "soft black-brown, matching natural hair color"
+  distinctive: "monolid eyes create an elegant sleek canvas, incredibly expressive despite minimal crease, eyes appear to sparkle with warmth"
+
+nose:
+  shape: "soft button nose with rounded profile"
+  size: "petite and delicate"
+  bridge: "low to medium, smooth and soft"
+  tip: "rounded and slightly upturned"
+  nostrils: "small and proportional"
+
+lips:
+  shape: "soft, medium-full with a gradient look"
+  upper_lip: "soft bow shape, naturally slightly thinner"
+  lower_lip: "gently full, creating a natural soft pout"
+  color: "soft rose pink with a natural gradient, deeper at center fading to lighter pink at edges"
+  texture: "smooth and plush with a natural dewy sheen"
+
+hair:
+  color: "deep black with subtle warm dark chocolate highlights visible in direct light"
+  natural_color: "natural black with soft brown tones"
+  length: "long, reaching past shoulders to mid-chest"
+  texture: "straight and sleek with a natural silky shine, smooth and flowing"
+  volume: "medium, naturally sleek with a polished weight"
+  parting: "center part or slight left side part"
+  bangs: "see-through wispy bangs (Korean-style) falling softly across forehead"
+  signature_style: "worn straight and glossy with see-through bangs, K-beauty glass-hair finish"
+  alternative_styles:
+    - "low loose ponytail with face-framing pieces"
+    - "space buns for playful street style looks"
+    - "half-up with claw clip, effortlessly trendy"
+    - "soft S-wave perm for textured volume"
+
+body:
+  height_description: "petite to medium (5'4\")"
+  build: "slim and proportional with a youthful, compact frame"
+  bust: "small to medium, natural and proportional to petite frame"
+  waist: "small and naturally defined"
+  hips: "slim and straight with subtle feminine curve"
+  legs: "proportional and slender, well-shaped"
+  shoulders: "narrow and delicate, slightly rounded"
+  skin_details: "smooth and clear throughout, small freckle on right wrist"
+  fitness_level: "naturally slim with subtle tone from Pilates and daily walking, soft definition"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "K-beauty street style — mixing Korean contemporary fashion with American streetwear edge, trend-forward and photo-ready"
+  color_palette:
+    - "soft lavender"
+    - "baby pink"
+    - "cream white"
+    - "light denim blue"
+    - "black"
+    - "sage green"
+  fashion_era: "contemporary K-fashion with Y2K revival and streetwear influences"
+  brands_vibe: "Ader Error meets Gentle Monster with MSCHF energy and Stylenanda basics"
+  jewelry_signature: "delicate silver chain necklace, mismatched small earrings, thin silver rings, sometimes a statement ear cuff"
+  accessories: "chunky sneakers or platform boots, small crossbody bags, bucket hats, tinted sunglasses in fun shapes"
+  makeup_style: "K-beauty glass skin, gradient lip tint in coral or berry, soft blurred blush, minimal eye makeup with clean lid, straight brows"
+  nail_style: "medium length, rounded or coffin shape, trendy designs — French tips, pastel colors, minimalist nail art"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "playful half-smile with bright eyes, head slightly tilted, radiating youthful energy and curiosity"
+  eye_contact: "bright, curious, and engaging, sometimes coy with a slightly lowered gaze and upward glance"
+  energy: "youthful creativity and effortless cool, approachable trendsetter energy"
+  signature_pose_notes: "peace sign or finger heart, hand near face, playful expressions, often caught mid-laugh"
+  mood_range:
+    - "playfully mischievous"
+    - "softly romantic"
+    - "confidently cool"
+    - "bright and energetic"
+    - "dreamily aesthetic"
+    - "casually unbothered"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "trendy Seoul-style cafe with pastel walls and aesthetic desserts"
+    - "neon-lit urban street at night with Korean signage"
+    - "minimalist apartment with soft lighting and aesthetic decor"
+    - "rooftop with city skyline view at blue hour"
+    - "colorful mural wall or street art backdrop"
+  lighting_preference: "soft diffused natural light, ring light for selfie glow, or colorful neon ambient light"
+  season_aesthetic: "spring cherry blossom season or cool autumn with warm layering"
+  indoor_style: "aesthetic cafe culture — pastel walls, neon signs, minimal furniture, lots of plants, warm string lights"
+  outdoor_style: "vibrant urban streets, cherry blossom parks, modern architecture, colorful storefronts"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "oversized graphic tee tucked into pleated mini skirt with chunky sneakers"
+      - "matching knit co-ord set in soft lavender"
+      - "high-waisted wide-leg jeans with cropped cardigan and bralette peek"
+      - "oversized blazer as dress with tall boots and bucket hat"
+      - "fitted turtleneck with leather mini skirt and knee-high boots"
+    typical_scenarios:
+      - "selfie in a pastel-themed cafe with a matcha latte and macarons"
+      - "mirror selfie in a trendy fitting room, showing full outfit"
+      - "walking down a colorful Seoul street with shopping bags"
+      - "sitting on steps with cherry blossoms falling, reading phone"
+      - "rooftop portrait at blue hour with city lights beginning to glow"
+    mood: "cute, trendy, effortlessly cool — like a K-fashion Instagram feed come to life"
+    composition_notes: "aesthetic composition with pastel or neon accents, trend-forward styling, selfie and mirror shot angles, youthful energy"
+
+  suggestive:
+    clothing_styles:
+      - "cropped tank top with low-rise cargo pants, showing midriff"
+      - "body-skimming knit mini dress in cream"
+      - "oversized boyfriend shirt worn as dress, buttons partially undone"
+      - "fitted tube top with high-waisted satin mini skirt"
+      - "bikini top with open oversized shirt and denim shorts"
+    typical_scenarios:
+      - "lounging on a bed in oversized shirt, legs bare, warm lamplight"
+      - "leaning against a neon-lit wall at night, outfit highlighting figure"
+      - "poolside at a modern rooftop pool, sitting on edge"
+      - "hotel room mirror selfie in a fitted dress, warm lighting"
+      - "seated on a windowsill, city view behind, casual and flirty"
+    mood: "flirty confidence, casual allure, effortlessly attractive"
+    composition_notes: "mix of selfie-style and editorial angles, warm soft lighting on skin, youthful body confidence, trend-forward but intimate"
+
+  spicy:
+    clothing_styles:
+      - "lace bralette with matching high-waisted briefs in soft pink"
+      - "sheer mesh top over minimal bra with low-rise bottoms"
+      - "satin slip dress in lavender with thin straps and deep back"
+      - "cropped camisole with lace trim and matching shorts"
+      - "open silk robe in cream over delicate lingerie"
+    typical_scenarios:
+      - "bedroom with fairy lights and soft pink glow, kneeling on bed"
+      - "standing in bathroom doorway, morning light catching silk fabric"
+      - "lying across a fluffy white comforter, looking up at camera"
+      - "seated at a vanity mirror, reflection showing lingerie, soft glow"
+      - "by a window with sheer curtains, sunlight filtering through fabric"
+    mood: "soft sensuality, intimate and personal, youthful and tender"
+    composition_notes: "soft pastel-toned lighting, intimate bedroom aesthetic, delicate body framing, blend of cute and sensual"
+
+  nsfw:
+    clothing_styles:
+      - "nude with soft pink satin sheet loosely draped"
+      - "open silk robe with nothing beneath"
+      - "sheer mesh bodysuit"
+      - "topless with minimal lace bottoms"
+      - "barely-there lingerie set in white lace"
+    typical_scenarios:
+      - "lying in soft sheets with warm morning light"
+      - "standing in a modern shower with glass door"
+      - "reclining on a bed with fairy lights in background"
+      - "seated nude on a windowsill, soft backlight"
+      - "artistic nude in minimalist setting with soft diffused light"
+    mood: "uninhibited, softly passionate, intimate and genuine, youthful sensuality"
+    composition_notes: "soft diffused lighting, clean minimalist settings, delicate and artistic framing, celebration of natural beauty with warm tones"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "nadia_kim_face_ref_01.png"
+  style_reference: "nadia_kim_style_ref_01.png"
+  composition_reference: "nadia_kim_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "nadia_kim, 23yo Korean-American woman, light skin with warm peachy-golden undertone, glass-skin glow, deep warm brown monolid eyes, straight black hair with subtle chocolate highlights, see-through wispy bangs, soft button nose, gradient rose-pink lips, small V-line chin, beauty mark below left eye, slim petite build, straight natural brows, youthful and trendy"
+  character_negatives: "double eyelid, large round eyes, curly hair, blonde hair, tanned skin, heavy body, prominent nose bridge, thick lips, freckles"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Aesthetic close-up capturing Nadia's glass skin, monolid eyes, and K-beauty glow"
+    resolution: "3:4"
+    framing: "close-up from upper chest, slight angle, chin slightly down for youthful look"
+    expression: "playful half-smile with bright sparkling eyes, head tilted slightly, warm and approachable"
+    background: "soft bokeh of pastel pink and lavender tones, suggesting an aesthetic cafe out of focus"
+    lighting: "soft diffused ring-light quality from front, gentle fill, bright catch lights in dark eyes, subtle glow on glass skin"
+    clothing: "cream knit turtleneck, delicate silver chain necklace, small mismatched earrings — one pearl stud, one tiny silver hoop"
+    additional_prompt: "see-through bangs falling softly across forehead, dewy glass skin visible, K-beauty aesthetic, photo-realistic, 85mm portrait lens, shallow depth of field, soft warm pastel color grading"
+
+  three_quarter:
+    description: "Street style 3/4 shot showing Nadia's trendy K-fashion aesthetic"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body slightly angled, one hand making finger heart near face, weight casual"
+    expression: "bright genuine laugh, eyes crinkled with joy, radiating playful energy"
+    background: "colorful Seoul-style street with neon signs and shop fronts, slightly blurred"
+    lighting: "natural daylight mixed with colorful neon reflections, bright and vibrant"
+    clothing: "oversized lavender blazer over white graphic tee, black pleated mini skirt, chunky white sneakers, small silver crossbody bag, tinted round sunglasses on head"
+    additional_prompt: "straight glossy hair catching light, youthful street style energy, K-fashion editorial quality, vibrant urban environment"
+
+  full_body:
+    description: "Full body establishing shot showing Nadia's complete street style look and petite frame"
+    resolution: "9:16"
+    framing: "full body, eye-level angle, centered with urban context on both sides"
+    expression: "casually cool, slight knowing smile, eyes engaging camera with effortless confidence"
+    background: "cherry blossom-lined city sidewalk in soft spring light, pink petals in air"
+    lighting: "soft overcast spring light creating even illumination, gentle warmth, slight backlight through blossoms"
+    clothing: "cropped sage green cardigan over white baby tee, high-waisted light denim wide-leg jeans, white platform sneakers, small lavender crossbody bag, bucket hat in cream, delicate silver layered necklaces"
+    additional_prompt: "cherry blossom petals floating, full body from bucket hat to sneakers, K-fashion spring editorial, soft pastel atmosphere, youthful trendy energy"

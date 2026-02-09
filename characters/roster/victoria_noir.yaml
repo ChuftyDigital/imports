@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Victoria Noir
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "victoria_noir"
+display_name: "Victoria Noir"
+tagline: "Parisian haute couture meets West African elegance — statuesque, refined, and effortlessly commanding"
+age_appearance: 26
+ethnicity: "French/Senegalese"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with strong elegant bone structure"
+  jawline: "defined and sculpted, angular yet feminine"
+  cheekbones: "extremely high and prominent, razor-sharp with beautiful shadow play"
+  forehead: "high and smooth, regal proportions"
+  chin: "softly angular, refined and proportional"
+  skin_tone: "deep caramel brown with warm golden-copper undertones, flawlessly luminous"
+  skin_texture: "smooth and even with a natural radiant sheen, porcelain-smooth quality"
+  complexion_details: "small beauty mark below left eye, subtle beauty mark on right collarbone, naturally highlighted cheekbones"
+
+eyes:
+  shape: "large almond-shaped with a subtle upward tilt at outer corners"
+  color: "deep dark brown with warm mahogany undertones, rich and captivating"
+  size: "large and strikingly expressive"
+  lashes: "naturally full, long, and dark, dramatic without effort"
+  brow_shape: "perfectly arched with a high peak, clean and sculpted"
+  brow_color: "deep dark brown, matching natural hair"
+  distinctive: "intensely captivating gaze with a regal quality, eyes appear luminous against deep skin tone"
+
+nose:
+  shape: "broad with refined elegance, naturally beautiful"
+  size: "proportional to face, strong and defined"
+  bridge: "medium height with a smooth gentle curve"
+  tip: "softly rounded with natural width"
+  nostrils: "gently flared, proportional and elegant"
+
+lips:
+  shape: "full and beautifully sculpted with dramatic proportions"
+  upper_lip: "defined with a prominent cupid's bow, naturally full"
+  lower_lip: "lush and voluminous, pillowy with beautiful definition"
+  color: "deep plum-rose with natural depth, rich and striking"
+  texture: "smooth with a natural sheen, beautifully hydrated"
+
+hair:
+  color: "deep dark brown to black, rich and lustrous"
+  natural_color: "dark brown to black"
+  length: "medium-long, versatile for multiple styling options"
+  texture: "tightly coiled natural 4B/4C texture, beautiful and structured"
+  volume: "thick and full with impressive natural volume"
+  parting: "varies with style, often swept back or to the side"
+  bangs: "none, forehead fully visible to showcase bone structure"
+  signature_style: "chic sculptural updo — sleek twisted chignon or elegant French roll"
+  alternative_styles:
+    - "defined twist-out with volume and shape"
+    - "slicked-back low bun with baby hair edges styled"
+    - "headwrap in luxurious silk fabric"
+    - "cropped natural tapered cut for editorial edge"
+
+body:
+  height_description: "tall and statuesque (5'10\")"
+  build: "statuesque and lean with elongated proportions, model-like frame"
+  bust: "medium, natural and proportional to frame"
+  waist: "long and narrow, elegantly defined"
+  hips: "narrow and elongated, creating a column-like silhouette"
+  legs: "extremely long and lean with graceful proportions"
+  shoulders: "broad and angular, perfect for structured fashion"
+  skin_details: "no tattoos, naturally flawless skin throughout, subtle sheen on collarbones and shoulders"
+  fitness_level: "lean and elongated from Pilates and dance, graceful muscle tone"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "Parisian chic with West African heritage accents — structural, minimal, and effortlessly luxurious"
+  color_palette:
+    - "jet black"
+    - "stark white"
+    - "deep burgundy"
+    - "rich gold"
+    - "warm chocolate brown"
+    - "deep navy"
+  fashion_era: "contemporary high fashion with architectural minimalism and African print accents"
+  brands_vibe: "Celine meets Dior with Tongoro and Studio 189 influences"
+  jewelry_signature: "bold sculptural gold cuffs, oversized statement earrings, single dramatic pendant necklace"
+  accessories: "structured leather handbags, cat-eye sunglasses, silk scarves in African wax print"
+  makeup_style: "editorial and refined — sculpted contour, bold lip in deep wine or nude, minimal eye with perfect brows"
+  nail_style: "long stiletto or almond shape, deep wine, nude, or matte black"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "calm composed gaze with a subtle knowing smile, chin elevated with quiet authority"
+  eye_contact: "piercing and direct, commanding attention with regal calm"
+  energy: "commanding sophistication, quiet power, effortless authority"
+  signature_pose_notes: "chin lifted with elongated neck, one hand at waist, angular body positioning, strong shoulder-forward poses"
+  mood_range:
+    - "coolly sophisticated"
+    - "regally commanding"
+    - "warmly approachable"
+    - "intensely focused"
+    - "sensually powerful"
+    - "privately playful"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "minimalist Parisian apartment with Haussmann architecture"
+    - "modern art gallery with stark white walls"
+    - "Parisian boulevard cafe with zinc countertop"
+    - "high-fashion boutique with marble floors"
+    - "architectural rooftop with city skyline"
+  lighting_preference: "dramatic directional studio lighting, high contrast, sculpted shadows"
+  season_aesthetic: "Parisian autumn to winter, moody and sophisticated"
+  indoor_style: "stark minimalist with curated art pieces, marble and brass, monochrome with bold accent"
+  outdoor_style: "architectural European cityscapes, clean urban geometry, dramatic skies"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "tailored black blazer with wide-leg trousers and silk camisole"
+      - "structured midi dress in deep burgundy with bold earrings"
+      - "high-waisted paper bag trousers with tucked cream blouse"
+      - "oversized camel coat over monochrome turtleneck and trousers"
+      - "African wax print wrap skirt with fitted black top"
+    typical_scenarios:
+      - "walking along a Parisian boulevard with structured handbag, autumn leaves falling"
+      - "seated at a gallery opening, wine glass in hand, poised and elegant"
+      - "portrait against stark white architectural wall, geometric shadows"
+      - "standing at a floor-to-ceiling window overlooking Paris rooftops"
+      - "browsing a high-end boutique, examining fabric between fingers"
+    mood: "sophisticated, powerful, editorial elegance — like a Vogue Paris spread"
+    composition_notes: "strong geometric framing, high contrast lighting, architectural backgrounds, emphasis on silhouette and structure"
+
+  suggestive:
+    clothing_styles:
+      - "plunging neckline bodycon dress in deep navy"
+      - "off-shoulder structured gown with thigh-high slit"
+      - "fitted turtleneck bodysuit with high-waisted sheer skirt"
+      - "backless halter top in black silk with tailored trousers"
+      - "one-piece swimsuit in deep wine with gold hardware"
+    typical_scenarios:
+      - "leaning against a marble fireplace in a dimly lit salon"
+      - "rooftop at dusk overlooking city lights, wind catching fabric"
+      - "seated on the edge of a designer chaise in a penthouse"
+      - "stepping out of a private car in evening wear, one leg extended"
+      - "standing before a floor-length mirror in a luxury hotel suite"
+    mood: "commanding sensuality, powerful allure, sophisticated seduction"
+    composition_notes: "dramatic shadow play on deep skin, emphasis on silhouette and elongated form, high-fashion editorial posing"
+
+  spicy:
+    clothing_styles:
+      - "black lace bodysuit with architectural cut-outs"
+      - "sheer black mesh dress over minimal undergarments"
+      - "silk robe in deep burgundy worn loosely open"
+      - "strappy lingerie set in black and gold"
+      - "sculptural cage-style body harness over nude underlayer"
+    typical_scenarios:
+      - "bedroom with dramatic chiaroscuro lighting, reclining on dark sheets"
+      - "standing in a doorway silhouetted by warm backlight"
+      - "seated at a vanity in luxurious lingerie, applying lipstick"
+      - "lying on a marble floor in sheer fabric, artistic overhead angle"
+      - "candlelit bathroom in a luxury hotel, steam softening the light"
+    mood: "powerful sensuality, artistic intensity, sculptural beauty, dramatic intimacy"
+    composition_notes: "high contrast lighting sculpting the body, editorial art-nude aesthetic, emphasis on form and shadow, dramatic compositions"
+
+  nsfw:
+    clothing_styles:
+      - "nude with black silk sheet artistically draped"
+      - "open silk robe in deep burgundy, body fully revealed"
+      - "sheer black bodysuit leaving nothing hidden"
+      - "topless with high-waisted structured skirt"
+      - "nude with sculptural gold jewelry as sole adornment"
+    typical_scenarios:
+      - "dramatic studio-lit bedroom, body sculpted by light and shadow"
+      - "standing at rain-streaked window, nude silhouette against city lights"
+      - "lying on dark silk sheets, body highlighted by single directional light"
+      - "luxury bathroom in marble and gold, nude in warm soft light"
+      - "reclining on a sculptural chaise, lit by a single dramatic source"
+    mood: "uninhibited power, sculptural eroticism, commanding sensuality"
+    composition_notes: "dramatic high-contrast lighting, deep skin celebrated through light and shadow, editorial art-nude compositions, statuesque posing"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "victoria_noir_face_ref_01.png"
+  style_reference: "victoria_noir_style_ref_01.png"
+  composition_reference: "victoria_noir_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "victoria_noir, 26yo French-Senegalese woman, deep caramel brown skin with golden-copper undertone, large dark brown almond eyes, full sculpted lips with prominent cupid's bow, dark coily hair in chic updo, extremely high cheekbones, beauty mark below left eye, tall statuesque build, angular jaw, long elegant neck, broad shoulders"
+  character_negatives: "light skin, light eyes, straight hair, short stature, round soft face, freckles, visible tattoos, heavy blush"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Striking close-up showcasing Victoria's sculpted bone structure and commanding dark eyes against dramatic lighting"
+    resolution: "3:4"
+    framing: "close-up from mid-chest up, slight three-quarter angle favoring left side, chin lifted with regal poise"
+    expression: "serene and composed with a subtle confident smile, piercing direct gaze, quiet power"
+    background: "deep charcoal to black gradient, minimalist and dramatic"
+    lighting: "dramatic butterfly lighting from above, sculpted shadows under cheekbones, strong catch lights in eyes, warm rim light on one side"
+    clothing: "structured black off-shoulder top revealing elegant collarbones, bold sculptural gold earrings, single dramatic gold cuff"
+    additional_prompt: "editorial high-fashion quality, skin luminous against dramatic background, architectural bone structure highlighted, 85mm portrait lens, shallow depth of field"
+
+  three_quarter:
+    description: "3/4 editorial shot capturing Victoria's statuesque presence and Parisian sophistication"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled at 30 degrees, one hand resting on hip, elongated posture"
+    expression: "cool knowing smile, eyes focused and intent, head tilted with sculptural grace"
+    background: "minimalist gallery space with a single bold artwork on stark white wall, clean lines"
+    lighting: "directional studio light from the left sculpting body and face, subtle fill, dramatic shadow on wall"
+    clothing: "deep burgundy structured midi dress with architectural draping, stiletto heels, oversized gold statement earrings, structured leather clutch"
+    additional_prompt: "editorial fashion stance, elongated proportions emphasized, strong geometric shadow play, high-fashion magazine quality"
+
+  full_body:
+    description: "Full body establishing shot presenting Victoria's complete statuesque silhouette and commanding style"
+    resolution: "9:16"
+    framing: "full body with slight low angle to emphasize height, centered against architectural backdrop"
+    expression: "calm and regal, composed closed-mouth smile, direct powerful gaze"
+    background: "Haussmann-style Parisian building facade with ornate stone details, dramatic overcast sky"
+    lighting: "overcast diffused light with directional warmth, rim light separating figure from background, subtle highlights on gold accessories"
+    clothing: "tailored black wide-leg trousers, fitted cream silk turtleneck, oversized camel structured coat draped over shoulders, gold sculptural cuff, pointed black heels, structured black leather bag"
+    additional_prompt: "commanding presence filling the frame, full body visible from styled hair to pointed heels, wind catching coat, architectural fashion editorial, dramatic Parisian atmosphere"

@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Isla Moreno
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "isla_moreno"
+display_name: "Isla Moreno"
+tagline: "Golden-hour Latin glamour queen radiating Mexican fire and Spanish elegance"
+age_appearance: 25
+ethnicity: "Mexican/Spanish"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "soft heart-shape with gentle width at cheekbones"
+  jawline: "softly rounded and feminine, gently tapering to chin"
+  cheekbones: "full and rounded, naturally prominent with a warm glow"
+  forehead: "medium height, smooth and slightly rounded"
+  chin: "small and softly rounded, slightly pointed"
+  skin_tone: "golden bronze with warm honey undertones, naturally sun-kissed radiance"
+  skin_texture: "smooth and luminous with a natural healthy glow, slightly dewy"
+  complexion_details: "small beauty mark on left jawline near ear, faint dimples on both cheeks when smiling broadly"
+
+eyes:
+  shape: "large and round with a subtle almond taper at outer corners"
+  color: "warm amber with deep golden flecks throughout, rich honey-brown ring at the outer edge"
+  size: "large, expressive, and captivating"
+  lashes: "thick, dark, and dramatically long with a natural upward curl"
+  brow_shape: "full and softly arched with a defined peak, naturally thick and groomed"
+  brow_color: "deep dark brown, matching natural hair color"
+  distinctive: "eyes catch light and appear to glow warm golden amber, creating an almost feline intensity"
+
+nose:
+  shape: "straight with a subtle soft curve at bridge"
+  size: "proportional and well-defined"
+  bridge: "medium height, smooth and slightly wide"
+  tip: "rounded and soft with gentle definition"
+  nostrils: "gently flared, proportional and symmetrical"
+
+lips:
+  shape: "full and voluptuous, wide with generous proportions"
+  upper_lip: "full with a pronounced cupid's bow and soft rounded peaks"
+  lower_lip: "plush and noticeably full, creating a naturally sensuous pout"
+  color: "warm rose-brown with deeper berry-mauve tone at center"
+  texture: "naturally glossy and hydrated"
+
+hair:
+  color: "rich dark chocolate brown with deep mahogany and subtle auburn highlights catching the light"
+  natural_color: "deep dark brown, nearly black at roots"
+  length: "long, reaching below mid-back, with layered body"
+  texture: "loose voluminous waves with a natural S-curl pattern, bouncy and full of movement"
+  volume: "thick, abundant, and luxuriously voluminous"
+  parting: "deep side part on the left, creating a dramatic sweep"
+  bangs: "long side-swept layers framing the face, blending into the length"
+  signature_style: "worn in voluminous loose waves swept dramatically to one side, full of body and movement"
+  alternative_styles:
+    - "high voluminous ponytail with face-framing tendrils"
+    - "old Hollywood glamour waves, deeply side-parted"
+    - "half-up twisted style with cascading curls"
+    - "sleek center-part low bun for formal looks"
+
+body:
+  height_description: "medium height with commanding presence (5'6\")"
+  build: "curvy hourglass figure with balanced proportions, feminine and voluptuous"
+  bust: "full and round, naturally voluptuous"
+  waist: "narrow and defined, creating a pronounced hourglass silhouette"
+  hips: "wide and curvy with smooth rounded lines, proportional to bust"
+  legs: "shapely and toned with feminine curves, medium length"
+  shoulders: "rounded and proportional, slightly narrower than hips"
+  skin_details: "tiny cluster of freckles on upper chest from sun exposure, small rose tattoo behind left ear"
+  fitness_level: "soft and toned with natural feminine curves, maintained through dance and light training"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "Latin glamour meets modern sophistication — bold, colorful, body-celebrating, and unapologetically feminine"
+  color_palette:
+    - "rich red"
+    - "deep fuchsia"
+    - "warm gold"
+    - "crisp white"
+    - "deep emerald"
+    - "burnt orange"
+  fashion_era: "contemporary with vintage Hollywood glamour influence and Latin flair"
+  brands_vibe: "Revolve meets Dolce & Gabbana with Bronx and Banco drama"
+  jewelry_signature: "bold gold hoop earrings, layered gold chains with pendant, stacked gold bangles"
+  accessories: "oversized designer sunglasses, statement clutch bags, strappy heeled sandals, decorative hair clips"
+  makeup_style: "full glamour — sculpted brows, warm smoky eye, bronzed and highlighted cheeks, bold lip in red or nude gloss"
+  nail_style: "long almond-shaped, rich colors like deep red, nude with gold accents, or classic French"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "confident, warm smile showing perfect teeth, eyes sparkling with flirtatious energy, slight head tilt"
+  eye_contact: "bold, direct, and magnetic — unapologetically holding the viewer's gaze"
+  energy: "vivacious warmth and irresistible charisma, effortlessly commands attention in any room"
+  signature_pose_notes: "hand on hip emphasizing curves, hair toss over shoulder, arched back accentuating silhouette"
+  mood_range:
+    - "vivaciously joyful"
+    - "smolderingly seductive"
+    - "playfully coquettish"
+    - "warmly inviting"
+    - "dramatically glamorous"
+    - "fiercely confident"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "rooftop bar overlooking a glittering city skyline at sunset"
+    - "luxurious hotel suite with plush furnishings and warm lighting"
+    - "tropical resort pool with palm trees and turquoise water"
+    - "vibrant street with colorful colonial architecture"
+    - "upscale restaurant with candlelight and rich textures"
+  lighting_preference: "warm golden hour light, candlelit ambiance, or dramatic studio lighting with warm gels"
+  season_aesthetic: "endless summer with tropical warmth, golden and sultry"
+  indoor_style: "luxe interiors with rich textures — velvet, gold accents, warm woods, moody warm lighting"
+  outdoor_style: "tropical paradise, vibrant cityscapes, sun-drenched terraces, bougainvillea and palm trees"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "fitted wrap dress in bold red with gold hoop earrings"
+      - "high-waisted wide-leg trousers with structured crop top"
+      - "floral maxi dress with dramatic side slit and strappy heels"
+      - "tailored blazer dress in emerald green with gold belt"
+      - "off-shoulder ruched midi dress in warm coral"
+    typical_scenarios:
+      - "clinking a cocktail glass on a rooftop terrace at golden hour"
+      - "walking through a colorful colonial street, hair flowing behind"
+      - "posing confidently at a restaurant table with candlelight"
+      - "sunset portrait on a beach boardwalk, wind catching dress"
+      - "selfie in a boutique dressing room surrounded by shopping bags"
+    mood: "glamorous, confident, warm, and celebratory — like a luxury lifestyle magazine spread"
+    composition_notes: "warm saturated tones, emphasis on curves and silhouette, dynamic posing, rich environmental context"
+
+  suggestive:
+    clothing_styles:
+      - "plunging V-neck bodycon dress in deep fuchsia"
+      - "high-slit satin wrap skirt with lace camisole"
+      - "string bikini in metallic gold with sheer sarong"
+      - "bandage mini dress in classic red"
+      - "off-shoulder corset top with high-waisted fitted pants"
+    typical_scenarios:
+      - "lounging by an infinity pool at sunset, cocktail in hand"
+      - "leaning against a balcony railing overlooking the ocean at dusk"
+      - "seated on a velvet couch in a dimly lit lounge, legs crossed"
+      - "standing in a hotel room doorway, dress hugging every curve"
+      - "walking along a moonlit beach with waves lapping at ankles"
+    mood: "seductive confidence, smoldering warmth, magnetic allure"
+    composition_notes: "body-celebrating framing, warm golden highlights on skin, dramatic curves emphasized, rich warm atmosphere"
+
+  spicy:
+    clothing_styles:
+      - "red lace lingerie set with garter details"
+      - "sheer black mesh bodysuit with strategic coverage"
+      - "satin slip dress in gold, deeply plunging front and back"
+      - "lace-trimmed bralette with matching high-waist thong"
+      - "open-front silk robe in deep burgundy over lingerie"
+    typical_scenarios:
+      - "bedroom with rose petals and candlelight, tangled in satin sheets"
+      - "standing before a full-length gilded mirror in lingerie"
+      - "reclining on a plush velvet daybed with warm moody lighting"
+      - "silhouetted in a steamy bathroom doorway"
+      - "lying across a luxurious hotel bed, looking up at camera"
+    mood: "passionate, intensely seductive, romantic heat, unapologetic sensuality"
+    composition_notes: "dramatic warm lighting on curves, rich textures and fabrics, intimate close framing, bold sensual posing"
+
+  nsfw:
+    clothing_styles:
+      - "nude with red satin sheet draped across hips"
+      - "open silk robe revealing full body"
+      - "topless with high-waisted lace thong"
+      - "sheer mesh bodysuit leaving nothing hidden"
+      - "barely-there string bikini bottom only"
+    typical_scenarios:
+      - "lying in candlelit bedroom on satin sheets"
+      - "standing under a waterfall shower with steam"
+      - "reclining nude on a chaise with warm golden light"
+      - "kneeling on a bed, robe falling open, looking over shoulder"
+      - "bath scene surrounded by candles and rose petals"
+    mood: "uninhibited, passionately sensual, fiery and warm, celebration of body"
+    composition_notes: "warm dramatic lighting emphasizing golden skin and curves, rich color palette, bold and confident poses, artistic but explicit"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "isla_moreno_face_ref_01.png"
+  style_reference: "isla_moreno_style_ref_01.png"
+  composition_reference: "isla_moreno_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "isla_moreno, 25yo Mexican-Spanish woman, golden bronze skin with warm honey undertone, warm amber eyes with golden flecks, rich dark chocolate brown wavy hair with mahogany highlights, full voluptuous lips with pronounced cupid's bow, curvy hourglass figure, beauty mark on left jawline, dimples when smiling, thick dark lashes, deep side part, bold glamorous energy"
+  character_negatives: "pale skin, blue eyes, straight hair, blonde hair, thin frame, angular features, cool color tones, freckles across face"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Glamorous close-up capturing Isla's warm amber eyes and radiant golden-bronze complexion"
+    resolution: "3:4"
+    framing: "close-up from upper chest, slight three-quarter angle favoring left side, chin tilted down slightly for smoldering look"
+    expression: "confident half-smile with parted lips, warm amber eyes locked on camera with flirtatious intensity, slight head tilt"
+    background: "soft bokeh of warm golden and amber tones, suggesting candlelit luxury out of focus"
+    lighting: "warm golden key light from upper right, bronze-toned fill, prominent catch lights in amber eyes, warm rim light on hair"
+    clothing: "deep V-neck emerald green top, bold gold hoop earrings, layered gold chain necklaces resting on collarbone"
+    additional_prompt: "voluminous waves cascading over one shoulder, skin glowing golden and luminous, photo-realistic, 85mm portrait lens, shallow depth of field, warm rich color grading"
+
+  three_quarter:
+    description: "Body-celebrating 3/4 shot showing Isla's hourglass curves and Latin glamour style"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled 35 degrees to camera, hand on hip, weight shifted to emphasize curves"
+    expression: "vivacious smile showing teeth, eyes sparkling with genuine warmth, confident and magnetic"
+    background: "vibrant terrace with colorful bougainvillea cascading down a warm-toned stucco wall, slightly blurred"
+    lighting: "golden hour sunlight from the left, warm and directional, highlighting skin and hair"
+    clothing: "fitted red wrap dress with subtle slit, gold bangles stacked on wrist, strappy gold heeled sandals, small gold clutch"
+    additional_prompt: "hair tossed dramatically over shoulder, fabric draping and hugging curves, lifestyle glamour editorial quality, warm vibrant color palette"
+
+  full_body:
+    description: "Full body establishing shot showcasing Isla's complete glamour look and hourglass silhouette"
+    resolution: "9:16"
+    framing: "full body with eye-level angle, slightly off-center with environmental context, dynamic stance"
+    expression: "fiercely confident, bold smile, eyes directly engaging camera, chin raised with self-assured poise"
+    background: "rooftop terrace at golden hour with glittering city skyline fading into a warm sunset"
+    lighting: "backlit golden hour with warm rim light on hair and silhouette, soft warm frontal fill"
+    clothing: "floor-length deep fuchsia gown with high thigh slit and plunging neckline, gold strappy heels, statement gold earrings, gold cuff bracelet"
+    additional_prompt: "wind creating movement in dress and voluminous hair, full body from head to heels, glamorous evening editorial in golden light, celebration of curves and confidence"

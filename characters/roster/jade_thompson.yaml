@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Jade Thompson
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "jade_thompson"
+display_name: "Jade Thompson"
+tagline: "Sun-chasing surf girl with Australian ease and Thai grace — effortlessly athletic and radiant"
+age_appearance: 23
+ethnicity: "Australian/Thai"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "heart-shaped with softly rounded contours"
+  jawline: "delicate and softly defined, tapering gently"
+  cheekbones: "naturally prominent with a sun-kissed flush"
+  forehead: "smooth and proportional, slightly broad"
+  chin: "small and softly pointed"
+  skin_tone: "golden tan with warm honey undertones, perpetually sun-kissed"
+  skin_texture: "healthy and glowing with a light scatter of sun freckles across nose and cheeks"
+  complexion_details: "natural sun freckles concentrated on nose bridge and upper cheeks, faint smile lines from constant grinning"
+
+eyes:
+  shape: "almond-shaped with a subtle hooded quality, slightly upturned outer corners from Thai heritage"
+  color: "hazel-green with warm golden flecks, shifting between sea green and warm amber depending on light"
+  size: "medium-large, bright and alert"
+  lashes: "naturally dark and medium-length with a soft curl"
+  brow_shape: "naturally full with a soft arch, slightly untamed with a natural feathered look"
+  brow_color: "warm brown, slightly darker than sun-bleached hair"
+  distinctive: "eyes appear almost turquoise in bright sunlight, slightly crinkled at corners from outdoor squinting"
+
+nose:
+  shape: "button-like with a gentle natural curve"
+  size: "petite and proportional"
+  bridge: "low to medium, smooth and soft"
+  tip: "slightly rounded and upturned"
+  nostrils: "small and proportional"
+
+lips:
+  shape: "wide and naturally full with a relaxed spread"
+  upper_lip: "gently defined cupid's bow, naturally full"
+  lower_lip: "slightly fuller than upper with a soft natural pout"
+  color: "warm peach-pink, naturally sun-flushed"
+  texture: "naturally soft with a slightly sun-weathered character"
+
+hair:
+  color: "sun-bleached medium brown transitioning to warm honey blonde at mid-lengths and golden tips"
+  natural_color: "medium warm brown"
+  length: "mid-length, reaching just past shoulders, layered throughout"
+  texture: "natural beachy waves with salt-textured body, slightly tousled"
+  volume: "medium with natural body and movement from layering"
+  parting: "casual center part, often pushed back from face"
+  bangs: "grown-out curtain bangs reaching cheekbones, often tucked behind ears"
+  signature_style: "natural salt-spray waves, air-dried and tousled, pushed back from face with sun-bleached ends"
+  alternative_styles:
+    - "messy high bun with loose strands framing face"
+    - "low loose ponytail with pieces pulled free"
+    - "braided pigtails for active days"
+    - "slicked-back wet look after surfing"
+
+body:
+  height_description: "tall and athletic (5'8\")"
+  build: "athletic and toned with lean defined muscle, strong but feminine"
+  bust: "medium-small, firm and athletic"
+  waist: "defined with visible core strength"
+  hips: "narrow and athletic, proportional to shoulders"
+  legs: "long and lean with visible muscle tone, especially quads and calves"
+  shoulders: "broad and athletic, defined from swimming and surfing"
+  skin_details: "subtle tan lines from bikinis and sport tops, small wave tattoo behind left ear, faded friendship bracelet tan line on left wrist"
+  fitness_level: "highly athletic from surfing, swimming, and running, visible lean muscle definition throughout"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "surf and active lifestyle chic — effortless, sun-soaked, and naturally cool"
+  color_palette:
+    - "ocean teal"
+    - "sandy beige"
+    - "coral pink"
+    - "sun-bleached white"
+    - "seafoam green"
+    - "warm terracotta"
+  fashion_era: "contemporary with 90s surf and Australian beach culture influence"
+  brands_vibe: "Billabong meets Spell & the Gypsy, with Aritzia basics"
+  jewelry_signature: "simple shell and bead necklaces, thin gold anklet, small gold stud earrings, puka shell bracelet"
+  accessories: "retro sport sunglasses, canvas tote bags, woven straw hat, waterproof watch"
+  makeup_style: "barely-there natural look — tinted sunscreen, mascara, tinted lip balm in peach, sun-kissed bronzer on cheekbones"
+  nail_style: "short and natural or clear coat, practical for active lifestyle"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "wide easy grin with crinkled eyes, head tilted slightly with relaxed confidence"
+  eye_contact: "direct and friendly with a bright openness, easygoing and warm"
+  energy: "infectious positive energy, relaxed confidence, outdoor vitality"
+  signature_pose_notes: "often caught mid-motion, hand pushing hair back from face, casual lean against surfboard or railing"
+  mood_range:
+    - "brightly enthusiastic"
+    - "peacefully zen"
+    - "playfully adventurous"
+    - "casually cool"
+    - "warmly intimate"
+    - "competitively fierce"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "golden sand beach with turquoise waves"
+    - "beachside cafe with weathered wood and tropical plants"
+    - "coastal hiking trail with ocean views"
+    - "open-air surf shack with boards lined up outside"
+    - "modern beach house with floor-to-ceiling ocean views"
+  lighting_preference: "bright natural daylight, golden hour beach light, overhead tropical sun"
+  season_aesthetic: "endless summer, bright and sun-drenched with warm coastal tones"
+  indoor_style: "breezy beach house — rattan furniture, linen textiles, natural wood, tropical plants"
+  outdoor_style: "Australian coastline, turquoise ocean, golden cliffs, lush tropical greenery"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "board shorts and rash guard or crop top"
+      - "linen sundress with canvas sneakers"
+      - "high-waisted denim shorts and oversized vintage tee"
+      - "activewear set in bright teal or coral"
+      - "casual sarong wrap over swimsuit with straw hat"
+    typical_scenarios:
+      - "walking along the beach at sunrise carrying surfboard under arm"
+      - "sitting at a beachside cafe with an acai bowl, sun in hair"
+      - "hiking a coastal trail with ocean panorama behind"
+      - "laughing with friends at a beach bonfire, golden light on face"
+      - "stretching on the beach at golden hour, yoga pose on sand"
+    mood: "bright, energetic, adventurous — like a surf lifestyle editorial"
+    composition_notes: "bright natural lighting, ocean and nature backdrops, emphasis on active lifestyle and natural beauty, vibrant color"
+
+  suggestive:
+    clothing_styles:
+      - "triangle bikini in ocean blue with thin ties"
+      - "cropped wet-look rash guard and cheeky bikini bottoms"
+      - "sheer linen cover-up over bold-colored swimsuit"
+      - "form-fitting surf suit unzipped to waist"
+      - "high-cut one-piece swimsuit in coral with open back"
+    typical_scenarios:
+      - "emerging from ocean waves, wet hair pushed back, water glistening on skin"
+      - "lying on a surfboard in calm water, floating at sunset"
+      - "stretching against a beach shower post, water running down"
+      - "sitting on the tailgate of a truck at the beach, legs dangling"
+      - "pool edge at a tropical resort, leaning back on hands"
+    mood: "confident athletic beauty, natural sensuality, sun-drenched ease"
+    composition_notes: "emphasis on athletic build and golden tan, water and sun elements, natural movement and dynamism"
+
+  spicy:
+    clothing_styles:
+      - "micro bikini with thin string ties"
+      - "sheer white wet t-shirt over minimal swimwear"
+      - "lace-trimmed bralette with matching boy shorts in seafoam"
+      - "silk camisole and shorts set in warm coral"
+      - "mesh cover-up revealing bikini underneath"
+    typical_scenarios:
+      - "outdoor shower at beach house, warm light and steam"
+      - "lying on white sheets in beach house, morning light streaming through sheer curtains"
+      - "sitting on rocks at a secluded cove, waves lapping, bikini loosened"
+      - "bedroom with ocean view, waking up tangled in light sheets"
+      - "sunset bath on outdoor tub at coastal villa"
+    mood: "naturally sensual, athletic intimacy, warm and unhurried, sun-kissed allure"
+    composition_notes: "play of water and light on toned skin, bright natural lighting, athletic curves highlighted, intimate yet natural atmosphere"
+
+  nsfw:
+    clothing_styles:
+      - "nude on beach with surfboard for partial cover"
+      - "open linen shirt with nothing underneath"
+      - "barely-there string bikini bottom only"
+      - "sheer wet fabric clinging to body"
+      - "nude with towel casually draped"
+    typical_scenarios:
+      - "secluded beach at dawn, nude in shallow water"
+      - "outdoor shower at beach house, fully exposed in warm light"
+      - "bedroom with ocean breeze through open windows, tangled in sheets"
+      - "lying on deck of a private boat, sunbathing"
+      - "standing at edge of infinity pool overlooking ocean"
+    mood: "uninhibited natural freedom, athletic confidence, sun-worshipping abandon"
+    composition_notes: "bright natural light celebrating athletic form, ocean and nature settings, toned body highlighted by sun and water, golden hour warmth"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "jade_thompson_face_ref_01.png"
+  style_reference: "jade_thompson_style_ref_01.png"
+  composition_reference: "jade_thompson_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "jade_thompson, 23yo Australian-Thai woman, golden tan skin with honey undertones, hazel-green eyes with golden flecks, sun-bleached brown to blonde hair with beachy waves, sun freckles on nose and cheeks, wide natural smile, heart-shaped face, athletic toned build, small wave tattoo behind left ear, broad athletic shoulders"
+  character_negatives: "pale skin, dark unbleached hair, heavy makeup, curvy soft build, large bust, no freckles, indoor complexion, round face"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Sun-drenched close-up capturing Jade's freckled golden tan and bright hazel-green eyes"
+    resolution: "3:4"
+    framing: "close-up from upper chest, slight three-quarter angle, chin level with a relaxed tilt"
+    expression: "wide bright grin with crinkled eyes, natural and unposed, sun-squint adding warmth"
+    background: "soft bokeh of turquoise ocean and bright sky, warm golden tones"
+    lighting: "bright golden hour sunlight from camera right, natural warm fill, prominent catch lights in eyes, sun highlighting bleached hair ends"
+    clothing: "simple teal bikini top with thin straps, thin gold chain necklace with small wave pendant, puka shell bracelet on wrist"
+    additional_prompt: "sun-kissed freckles visible, hair slightly windblown, salt-textured waves catching light, photo-realistic, 85mm lens, shallow depth of field, beach lifestyle editorial"
+
+  three_quarter:
+    description: "Active lifestyle 3/4 shot showing Jade's athletic build and effortless surf-culture style"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled naturally with one hand pushing hair back, weight casually on one hip"
+    expression: "easy relaxed smile, looking slightly off-camera as if watching the waves, eyes bright"
+    background: "golden sand beach with turquoise waves breaking in the distance, soft focus"
+    lighting: "bright overhead sun with warm directional light, natural beach fill, highlights on toned skin"
+    clothing: "high-waisted denim cutoff shorts, cropped white linen tank top, canvas sneakers, shell necklace, retro sunglasses pushed up on head"
+    additional_prompt: "natural athletic stance, surfboard leaning against nearby wooden post, wind in hair, bright vibrant colors, lifestyle editorial quality"
+
+  full_body:
+    description: "Full body establishing shot capturing Jade's complete athletic surf-lifestyle look"
+    resolution: "9:16"
+    framing: "full body, natural eye-level angle, slightly off-center with ocean environment visible"
+    expression: "confident calm smile, direct eye contact, relaxed posture"
+    background: "beach at golden hour with warm sky and gentle waves, coastal cliffs in soft focus distance"
+    lighting: "golden hour backlight creating warm rim light on hair and shoulders, soft frontal natural fill"
+    clothing: "flowing floral sundress in coral and cream over visible bikini straps, woven straw hat in hand, gold anklet on right ankle, bare feet in sand"
+    additional_prompt: "wind catching dress fabric, barefoot in warm sand, full body visible from windswept hair to sandy feet, coastal lifestyle editorial, warm golden atmosphere"

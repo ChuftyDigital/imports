@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Sophia Petrov
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "sophia_petrov"
+display_name: "Sophia Petrov"
+tagline: "Ethereal Nordic ice queen with Russian soul and Scandinavian minimalist precision"
+age_appearance: 23
+ethnicity: "Russian/Swedish"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with refined angular structure"
+  jawline: "angular and sculpted, clean and defined"
+  cheekbones: "high, prominent, and sharply defined, creating elegant hollows beneath"
+  forehead: "high and smooth, gracefully proportioned"
+  chin: "slightly pointed, delicate and refined"
+  skin_tone: "fair porcelain with cool pink undertone, translucent luminosity"
+  skin_texture: "flawlessly smooth with an almost translucent quality, naturally dewy"
+  complexion_details: "faint blush across cheeks in cold light, tiny beauty mark on right cheekbone near outer eye corner"
+
+eyes:
+  shape: "large almond-shaped with slight upward tilt at outer corners"
+  color: "ice blue with silvery-grey striations radiating from the pupil, deeper steel blue ring at iris edge"
+  size: "large and striking, commanding attention"
+  lashes: "naturally long and pale at tips, dark blonde at roots, creating a feathered effect"
+  brow_shape: "straight with a subtle soft arch, naturally full and well-groomed"
+  brow_color: "cool-toned light brown, slightly darker than hair"
+  distinctive: "eyes appear almost translucent in bright light, shifting between pale ice blue and silvery grey depending on surroundings"
+
+nose:
+  shape: "straight and narrow with Nordic elegance"
+  size: "proportional, refined and delicate"
+  bridge: "high and straight, cleanly defined"
+  tip: "slightly upturned with a subtle point"
+  nostrils: "narrow and symmetrical"
+
+lips:
+  shape: "naturally full with elegant definition"
+  upper_lip: "soft cupid's bow with gentle peaks, naturally pale"
+  lower_lip: "slightly fuller than upper, creating a delicate pout"
+  color: "soft cool-toned pink with a natural mauve undertone"
+  texture: "smooth with a natural soft-matte finish"
+
+hair:
+  color: "platinum blonde with icy white-silver highlights throughout, cool-toned with no warmth"
+  natural_color: "light ash blonde, naturally very fair"
+  length: "long, reaching mid-back, falling in sleek straight sheets"
+  texture: "pin-straight and silky smooth, fine individual strands creating an overall sleek effect"
+  volume: "medium with natural sleek body, smooth and controlled"
+  parting: "precise center part"
+  bangs: "none, clean forehead with all hair swept back or parted"
+  signature_style: "worn sleek and straight with a center part, hair falling like a silk curtain"
+  alternative_styles:
+    - "low sculptural chignon at nape of neck"
+    - "slicked-back wet-look for editorial shoots"
+    - "loose soft waves for rare relaxed looks"
+    - "high tight ponytail for sharp modern aesthetic"
+
+body:
+  height_description: "tall and willowy (5'10\")"
+  build: "slender and elongated with subtle elegant curves, model proportions"
+  bust: "small to medium, natural and proportional to slender frame"
+  waist: "narrow and long, creating an elongated torso line"
+  hips: "slim and straight, narrow with subtle feminine curve"
+  legs: "very long and slender, gracefully proportioned"
+  shoulders: "straight, slightly broad for frame, excellent for structured clothing"
+  skin_details: "completely clear and unmarked, smooth porcelain throughout, faint blue veins visible at wrists"
+  fitness_level: "lean from Pilates and ballet, long toned muscles without visible bulk"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "minimalist Scandinavian luxury — clean lines, architectural silhouettes, monochromatic precision"
+  color_palette:
+    - "pure white"
+    - "light grey"
+    - "charcoal"
+    - "ice blue"
+    - "black"
+    - "pale silver"
+  fashion_era: "contemporary minimalism with futuristic undertones"
+  brands_vibe: "The Row meets Acne Studios with COS sensibility"
+  jewelry_signature: "single geometric silver pendant, thin silver cuff bracelet, small diamond stud earrings"
+  accessories: "structured leather bags in black or grey, angular cat-eye sunglasses, cashmere scarves in neutral tones"
+  makeup_style: "barely-there complexion with sculpted contour, clean skin focus, occasional bold lip in deep berry or classic red"
+  nail_style: "short square-shaped, always clean in sheer nude, pale grey, or clear gloss"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "composed and serene with an enigmatic closed-mouth smile, chin slightly elevated"
+  eye_contact: "direct, cool, and self-assured, penetrating but never aggressive"
+  energy: "quiet confidence and intellectual poise, an air of elegant mystery"
+  signature_pose_notes: "stands very straight with perfect posture, hands often clasped in front or one hand lightly touching opposite forearm"
+  mood_range:
+    - "icily composed"
+    - "subtly amused"
+    - "contemplatively distant"
+    - "rarely but radiantly smiling"
+    - "coolly seductive"
+    - "elegantly candid"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "minimalist white-walled gallery or museum"
+    - "modern Scandinavian apartment with floor-to-ceiling windows"
+    - "snowy Nordic cityscape with clean architecture"
+    - "sleek contemporary cafe with marble surfaces"
+    - "architectural concrete and glass spaces"
+  lighting_preference: "cool natural light from large windows, overcast soft diffusion, clean and bright"
+  season_aesthetic: "perpetual late autumn to winter, crisp and cool"
+  indoor_style: "minimalist interiors with white walls, light wood, concrete, and sparse sculptural furniture"
+  outdoor_style: "Nordic urban — clean streets, modern architecture, grey skies, bare birch trees, snow-dusted landscapes"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "tailored oversized blazer over slim trousers in charcoal"
+      - "cream cashmere turtleneck tucked into high-waisted wide-leg pants"
+      - "structured white button-down shirt dress with leather belt"
+      - "monochromatic all-black ensemble with architectural coat"
+      - "fine-knit grey sweater with tailored midi skirt"
+    typical_scenarios:
+      - "walking through a modern art museum, pausing at a sculpture"
+      - "seated at a marble cafe table with a cappuccino, reading"
+      - "portrait against a clean white wall with dramatic shadow play"
+      - "standing at floor-to-ceiling windows overlooking a snowy city"
+      - "browsing a minimalist bookshop with dark wood shelves"
+    mood: "composed, intellectual, effortlessly polished — like a Nordic design editorial"
+    composition_notes: "clean compositions with negative space, architectural framing, cool tones, sharp focus"
+
+  suggestive:
+    clothing_styles:
+      - "fitted sleeveless mock-neck dress in black with thigh slit"
+      - "silk camisole in ice blue tucked into tailored trousers"
+      - "backless cashmere sweater in cream"
+      - "one-piece swimsuit in matte black, architectural cut"
+      - "sheer grey blouse layered over minimal bralette"
+    typical_scenarios:
+      - "leaning against a floor-to-ceiling window at dusk, city lights below"
+      - "seated on a minimalist white couch, legs crossed, looking over shoulder"
+      - "standing at a hotel room mirror in a fitted slip dress"
+      - "poolside at a modern Nordic spa, clean lines and stone"
+      - "perched on the edge of a modern bathtub, wrapped in a towel"
+    mood: "understated allure, controlled sensuality, magnetic composure"
+    composition_notes: "emphasis on clean lines of body and clothing, cool-toned skin highlights, architectural framing of figure"
+
+  spicy:
+    clothing_styles:
+      - "sheer mesh bodysuit in pale grey"
+      - "silk slip in ice blue with deep V-neckline"
+      - "white lace lingerie set with minimalist design"
+      - "open-front silk robe over matching briefs"
+      - "barely-there string bikini in matte white"
+    typical_scenarios:
+      - "bedroom with white linen sheets, cool morning light flooding in"
+      - "standing silhouetted in a frosted glass doorway"
+      - "reclining on a grey velvet chaise in lingerie"
+      - "sitting on the edge of a modern freestanding bathtub"
+      - "wrapped in sheer fabric by a large window, backlit"
+    mood: "controlled intimacy, cool seduction, sculptural sensuality"
+    composition_notes: "play of light on pale skin, architectural body lines, clean intimate settings, cool-toned artistic framing"
+
+  nsfw:
+    clothing_styles:
+      - "nude with draped white sheet"
+      - "open silk robe falling off shoulders"
+      - "sheer white mesh bodysuit"
+      - "topless with high-waisted tailored trousers"
+      - "barely-there white lace thong and nothing else"
+    typical_scenarios:
+      - "lying across white sheets in cool morning light"
+      - "standing in a minimalist shower with glass walls"
+      - "reclining nude on a pale grey linen sofa"
+      - "silhouetted against a window, robe dropped to waist"
+      - "artistic nude in a stark white studio setting"
+    mood: "uninhibited yet composed, coolly passionate, sculptural and artistic"
+    composition_notes: "artistic nude compositions with cool lighting, emphasis on body as sculpture, clean backgrounds, elegant poses"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "sophia_petrov_face_ref_01.png"
+  style_reference: "sophia_petrov_style_ref_01.png"
+  composition_reference: "sophia_petrov_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "sophia_petrov, 23yo Russian-Swedish woman, fair porcelain skin with cool pink undertone, ice blue eyes with silvery-grey striations, platinum blonde pin-straight hair, high prominent cheekbones, angular jawline, straight narrow nose, full lips with soft cupid's bow, tall willowy build, beauty mark on right cheekbone, center part, elegant and composed"
+  character_negatives: "tanned skin, dark hair, curly hair, brown eyes, round face, heavy makeup, tattoos, freckles, warm color tones"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Striking close-up capturing Sophia's ice-blue eyes and sculpted Nordic features"
+    resolution: "3:4"
+    framing: "close-up from collarbone up, slight three-quarter angle favoring right side, chin subtly elevated"
+    expression: "composed and enigmatic, closed-mouth smile with piercing ice-blue eyes, serene and confident"
+    background: "soft bokeh of cool grey and pale blue tones, suggesting a minimalist interior out of focus"
+    lighting: "cool natural window light from the left, soft diffused fill, crisp catch lights in both eyes, subtle rim light on platinum hair"
+    clothing: "cream cashmere turtleneck, small diamond stud earrings catching light, geometric silver pendant"
+    additional_prompt: "hair falling sleekly on both sides of face, skin luminous and porcelain-smooth, photo-realistic, 85mm portrait lens, shallow depth of field, cool color grading"
+
+  three_quarter:
+    description: "Editorial 3/4 shot showing Sophia's minimalist style and statuesque presence"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled 25 degrees to camera, weight on one leg, one hand lightly resting on opposite forearm"
+    expression: "subtle amusement, barely perceptible smile, eyes direct and self-assured"
+    background: "minimalist white gallery wall with a single abstract painting partially visible, clean and spare"
+    lighting: "even cool daylight from overhead skylights, soft shadows, clean and bright"
+    clothing: "tailored charcoal oversized blazer over black slim trousers, white structured leather bag, thin silver cuff bracelet"
+    additional_prompt: "platinum hair perfectly straight and sleek, strong posture, editorial fashion quality, architectural environment"
+
+  full_body:
+    description: "Full body establishing shot showing Sophia's complete minimalist look and willowy frame"
+    resolution: "9:16"
+    framing: "full body with slight low angle for height emphasis, centered with architectural context"
+    expression: "serene and distant, gazing slightly off-camera to the right, lips softly parted"
+    background: "modern Nordic city street with clean architectural lines, grey stone and glass buildings, overcast sky"
+    lighting: "soft overcast natural light creating even illumination, subtle cool shadows, no harsh contrasts"
+    clothing: "monochromatic all-black ensemble — structured wool coat reaching mid-calf, slim turtleneck beneath, tailored trousers, pointed black leather ankle boots, angular cat-eye sunglasses pushed up on head"
+    additional_prompt: "wind barely lifting hair, elongated silhouette, full body visible from head to boots, Nordic street style editorial, cool-toned color palette"

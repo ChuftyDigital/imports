@@ -1,0 +1,92 @@
+# Docker Compose for AI Influencer Pipeline
+# Template: comfyui:latest-5090 (RTX 5090 / Blackwell architecture)
+#
+# Usage:
+#   docker compose up -d          # Start ComfyUI server
+#   docker compose exec comfyui python -m orchestrator.run master --all
+#   docker compose exec comfyui python -m orchestrator.run vault --all
+
+services:
+  comfyui:
+    image: comfyui:latest-5090
+    container_name: ai-influencer-comfyui
+    restart: unless-stopped
+
+    # RTX 5090 GPU access
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+    # Expose ComfyUI web UI and API
+    ports:
+      - "8188:8188"
+
+    # Mount volumes for persistence
+    volumes:
+      # Project code
+      - ../:/workspace/project
+      # ComfyUI models (mount from host to avoid re-downloading)
+      - comfyui-models:/comfyui/models
+      # Generated output
+      - output-data:/output
+      # ComfyUI input images (for IP-Adapter references)
+      - comfyui-input:/comfyui/input
+      # Custom nodes persistence
+      - comfyui-custom-nodes:/comfyui/custom_nodes
+
+    # Working directory
+    working_dir: /workspace/project
+
+    # Environment variables
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      # ComfyUI settings
+      - COMFYUI_PORT=8188
+      - COMFYUI_LISTEN=0.0.0.0
+      # Performance tuning for RTX 5090 (32GB VRAM)
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
+      - CUDA_LAUNCH_BLOCKING=0
+      # Enable TF32 for Blackwell arch performance
+      - NVIDIA_TF32_OVERRIDE=1
+
+    # ComfyUI startup command with optimal flags for 5090
+    command: >
+      python main.py
+      --listen 0.0.0.0
+      --port 8188
+      --highvram
+      --force-fp16
+      --preview-method auto
+      --cuda-device 0
+
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8188/system_stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Optional: monitoring dashboard
+  # Uncomment if you want Prometheus metrics
+  # monitor:
+  #   image: prom/prometheus:latest
+  #   volumes:
+  #     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+  #   ports:
+  #     - "9090:9090"
+
+volumes:
+  comfyui-models:
+    driver: local
+  output-data:
+    driver: local
+  comfyui-input:
+    driver: local
+  comfyui-custom-nodes:
+    driver: local

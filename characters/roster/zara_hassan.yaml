@@ -1,0 +1,222 @@
+# ============================================================================
+# AI INFLUENCER CHARACTER PROFILE: Zara Hassan
+# ============================================================================
+
+# --- IDENTITY ---
+character_id: "zara_hassan"
+display_name: "Zara Hassan"
+tagline: "Modern modest muse blending Moroccan heritage with Dutch contemporary edge"
+age_appearance: 21
+ethnicity: "Moroccan/Dutch"
+
+# --- PHYSICAL APPEARANCE ---
+face:
+  shape: "oval with refined symmetrical proportions"
+  jawline: "soft and elegantly tapered, feminine and smooth"
+  cheekbones: "high and gracefully sculpted, creating gentle definition"
+  forehead: "smooth and proportional, slightly high"
+  chin: "small and softly rounded with delicate proportions"
+  skin_tone: "warm bronze with olive-golden undertones, naturally radiant"
+  skin_texture: "smooth and even with a healthy natural luminosity, velvety finish"
+  complexion_details: "subtle beauty mark above right eyebrow, faint natural flush across nose bridge in warmth"
+
+eyes:
+  shape: "large almond-shaped with elegant upward tilt"
+  color: "deep brown with warm golden flecks radiating from the pupil, appearing almost amber in sunlight"
+  size: "large and deeply expressive, framed by dark lashes"
+  lashes: "naturally thick, jet black, and voluminously long with a dramatic curl"
+  brow_shape: "naturally full and straight with a soft arch, well-defined and expressive"
+  brow_color: "deep black-brown, matching natural hair"
+  distinctive: "gold flecks become strikingly visible in warm light, creating a mesmerizing depth and warmth"
+
+nose:
+  shape: "straight with a soft refined profile"
+  size: "petite and elegant"
+  bridge: "medium height, smooth and narrow"
+  tip: "softly rounded with a delicate upturn"
+  nostrils: "narrow and well-proportioned"
+
+lips:
+  shape: "medium-full with elegant symmetry"
+  upper_lip: "gently defined cupid's bow with subtle peaks"
+  lower_lip: "slightly fuller, creating a soft natural pout"
+  color: "warm dusty rose with deeper mauve tones at the center"
+  texture: "naturally smooth with a soft satin finish"
+
+hair:
+  color: "deep espresso black-brown with dark chocolate tones revealed in sunlight"
+  natural_color: "deep espresso black-brown"
+  length: "long, reaching past shoulders to mid-back"
+  texture: "thick natural curls with a defined spiral pattern, springy and full of life"
+  volume: "abundantly voluminous, thick and full with natural lift at roots"
+  parting: "natural side part on the right, sometimes covered by headscarf"
+  bangs: "none, curls naturally frame the face when hair is loose"
+  signature_style: "styled in defined natural curls, often partially covered with a stylish modern headscarf or turban wrap"
+  alternative_styles:
+    - "fully wrapped in an elegant silk hijab with volume at crown"
+    - "natural curls worn fully loose and voluminous"
+    - "curls pulled back in a pineapple updo with face-framing tendrils"
+    - "sleek turban wrap with curls cascading from back"
+
+body:
+  height_description: "medium height with elegant carriage (5'6\")"
+  build: "slender with gentle feminine curves, graceful and proportional"
+  bust: "medium, natural and proportional"
+  waist: "naturally defined with a gentle taper"
+  hips: "softly curved, creating a balanced silhouette"
+  legs: "long relative to height, slender and graceful"
+  shoulders: "narrow and delicate, slightly sloped"
+  skin_details: "smooth and even throughout, small cluster of beauty marks on inner left forearm"
+  fitness_level: "naturally graceful from yoga and swimming, lean with subtle tone"
+
+# --- STYLE & AESTHETIC ---
+style:
+  overall_aesthetic: "modern modest fashion with editorial edge — luxurious fabrics, architectural draping, contemporary silhouettes that celebrate modesty as style"
+  color_palette:
+    - "rich burgundy"
+    - "deep teal"
+    - "warm camel"
+    - "ivory"
+    - "dusty mauve"
+    - "burnt gold"
+  fashion_era: "contemporary with traditional Moroccan textile influences and modern minimalism"
+  brands_vibe: "Hana Tajima for Uniqlo meets Modest Mira with touches of Nanushka"
+  jewelry_signature: "delicate gold layered necklaces, hammered gold ear cuffs, thin gold rings stacked on multiple fingers"
+  accessories: "luxury silk scarves for head wrapping, structured leather bags in warm tones, elegant pointed-toe mules"
+  makeup_style: "warm natural glow with defined brows, subtle warm eyeshadow, luminous bronzed skin, nude lip gloss"
+  nail_style: "medium length, rounded, in warm neutral tones — soft mauve, warm nude, or clear gloss"
+
+# --- EXPRESSION & ENERGY ---
+personality:
+  default_expression: "warm, serene smile with knowing eyes, radiating quiet confidence and gentle approachability"
+  eye_contact: "soft, warm, and inviting, holding gaze with gentle intensity"
+  energy: "graceful poise with an undercurrent of creative passion, sophisticated yet approachable"
+  signature_pose_notes: "often adjusts headscarf with one hand, chin slightly lifted with graceful neck, hands sometimes pressed together in front"
+  mood_range:
+    - "serenely confident"
+    - "warmly contemplative"
+    - "creatively inspired"
+    - "gently playful"
+    - "quietly powerful"
+    - "elegantly joyful"
+
+# --- ENVIRONMENT & CONTEXT ---
+settings:
+  primary_locations:
+    - "modern co-working space with warm wood and green plants"
+    - "Moroccan-inspired courtyard with zellige tiles and a central fountain"
+    - "contemporary art gallery with warm lighting"
+    - "cozy minimalist apartment with textured textiles and warm tones"
+    - "outdoor terraced garden with Mediterranean plants and warm stone"
+  lighting_preference: "warm natural light, diffused through sheer curtains, or soft warm artificial ambient light"
+  season_aesthetic: "warm transitional seasons, early autumn and late spring warmth"
+  indoor_style: "warm contemporary with Moroccan accents — textured rugs, brass lanterns, ceramic vases, warm wood"
+  outdoor_style: "sun-dappled courtyards, warm stone architecture, Mediterranean gardens, zellige-tiled terraces"
+
+# --- LANE-SPECIFIC CONFIGURATION ---
+lanes:
+  sfw:
+    clothing_styles:
+      - "flowing wide-leg trousers with tucked-in silk blouse and structured blazer"
+      - "elegant maxi dress in rich teal with long sleeves and draped neckline"
+      - "tailored co-ord set in warm camel with matching headscarf"
+      - "oversized linen shirt layered over high-neck fitted top with wide-leg pants"
+      - "modest midi skirt with fine-knit turtleneck and long structured coat"
+    typical_scenarios:
+      - "browsing a sunlit bookshop, holding a stack of art books"
+      - "seated at a courtyard cafe with Moroccan mint tea, golden light"
+      - "walking through a modern gallery, pausing before a painting"
+      - "portrait in a doorway with intricate carved archway, soft shadows"
+      - "working at a stylish desk with warm lamplight, thoughtful expression"
+    mood: "sophisticated, creative, warmly poised — like a modern modest fashion editorial"
+    composition_notes: "warm tones throughout, elegant fabric draping, emphasis on texture and layering, environmental context with cultural richness"
+
+  suggestive:
+    clothing_styles:
+      - "fitted long-sleeve maxi dress with subtle body-skimming silhouette in burgundy"
+      - "off-shoulder draped top with high-waisted flowing trousers"
+      - "form-fitting turtleneck dress with thigh-high slit, knee-length"
+      - "sheer layered blouse over camisole with tailored wide-leg pants"
+      - "satin wrap dress with plunging neckline and long sleeves"
+    typical_scenarios:
+      - "reclining on floor cushions in a Moroccan-styled lounge, warm ambient light"
+      - "standing in a doorway with golden hour light catching silk fabric"
+      - "seated on a velvet ottoman, fabric draping elegantly, eyes inviting"
+      - "leaning against warm stone wall with cascading jasmine, looking over shoulder"
+      - "by a candlelit vanity, adjusting jewelry, partial reflection visible"
+    mood: "refined allure, elegant sensuality, warmth with magnetic poise"
+    composition_notes: "emphasis on elegant fabric against warm skin, soft lighting on bronze complexion, intimate but refined framing"
+
+  spicy:
+    clothing_styles:
+      - "silk chemise in deep burgundy with lace trim"
+      - "sheer embroidered kaftan over matching bralette and briefs"
+      - "lace bodysuit in warm ivory with long sleeves"
+      - "satin robe in teal, loosely tied, revealing lace beneath"
+      - "draped silk two-piece in dusty mauve, cropped top and flowing skirt"
+    typical_scenarios:
+      - "bedroom with warm amber lamplight, lounging on embroidered cushions"
+      - "wrapped in sheer silk by a window with warm golden light pouring in"
+      - "reclining in a hammam-inspired bath setting with soft steam"
+      - "sitting on the edge of a bed, silk robe sliding off one shoulder"
+      - "candlelit boudoir with rich textiles and warm tones"
+    mood: "intimate warmth, sensual grace, artfully unveiled beauty"
+    composition_notes: "warm intimate lighting on bronze skin, rich textile textures, artistic sensuality with cultural elegance, soft focus backgrounds"
+
+  nsfw:
+    clothing_styles:
+      - "nude with draped silk fabric in rich burgundy"
+      - "open embroidered robe revealing body"
+      - "sheer lace bodysuit"
+      - "topless with flowing silk skirt"
+      - "barely-there lace lingerie in warm ivory"
+    typical_scenarios:
+      - "reclining on embroidered cushions in warm lamplight"
+      - "standing in a sunlit hammam with soft steam"
+      - "lying across silk sheets in golden morning light"
+      - "artistic nude in warm-toned studio with draped textiles"
+      - "bathing scene in a tiled bath with scattered rose petals"
+    mood: "uninhibited, warmly passionate, artistically intimate, celebrating natural beauty"
+    composition_notes: "artistic compositions with warm golden lighting, rich cultural textures as backdrop, celebration of bronze skin tones, elegant and intimate posing"
+
+# --- TECHNICAL GENERATION SETTINGS ---
+generation:
+  loras: []
+  faceid_reference: "zara_hassan_face_ref_01.png"
+  style_reference: "zara_hassan_style_ref_01.png"
+  composition_reference: "zara_hassan_comp_ref_01.png"
+  mandatory_tokens: "1girl, solo"
+  identity_tokens: "zara_hassan, 21yo Moroccan-Dutch woman, warm bronze skin with olive-golden undertone, deep brown eyes with gold flecks, thick dark espresso curly hair, high sculpted cheekbones, full natural lashes, petite elegant nose, beauty mark above right eyebrow, slender graceful build, naturally voluminous curls, warm radiant complexion"
+  character_negatives: "pale skin, blue eyes, straight hair, blonde hair, heavy build, angular jaw, freckles, tattoos, cool undertones"
+
+# --- MASTER IMAGE DEFINITIONS ---
+master_images:
+  portrait:
+    description: "Warm close-up capturing Zara's deep brown-gold eyes and elegant features with modern headscarf styling"
+    resolution: "3:4"
+    framing: "close-up from mid-chest up, slight three-quarter angle favoring left side, chin gently lifted"
+    expression: "warm serene smile, deep brown eyes with visible gold flecks, soft and inviting gaze, gentle confidence"
+    background: "soft bokeh of warm amber and teal tones, suggesting a courtyard with warm light out of focus"
+    lighting: "warm natural light from upper right, soft fill, golden catch lights in both eyes, warm rim light on headscarf fabric"
+    clothing: "elegant silk headscarf in deep teal wrapped with volume at crown, ivory high-neck blouse, delicate gold layered necklaces, hammered gold ear cuffs"
+    additional_prompt: "curls peeking from beneath headscarf framing face, warm bronze skin glowing, photo-realistic, 85mm portrait lens, shallow depth of field, warm rich color grading"
+
+  three_quarter:
+    description: "Editorial 3/4 shot showing Zara's modern modest style and graceful presence"
+    resolution: "2:3"
+    framing: "mid-thigh crop, body angled 30 degrees, one hand adjusting headscarf, weight on back foot"
+    expression: "quietly confident with a gentle knowing smile, eyes warm and direct"
+    background: "Moroccan-inspired courtyard with zellige tile wall and cascading jasmine, warm and slightly blurred"
+    lighting: "natural warm dappled sunlight through overhead foliage, soft golden tones"
+    clothing: "tailored camel co-ord set — structured blazer and wide-leg trousers, matching silk headscarf, pointed-toe mules in warm brown, structured leather bag"
+    additional_prompt: "elegant posture, fabric draping beautifully, modern modest fashion editorial quality, warm cultural environment"
+
+  full_body:
+    description: "Full body establishing shot showing Zara's complete modest fashion look and graceful silhouette"
+    resolution: "9:16"
+    framing: "full body, eye-level angle, slightly off-center with architectural context"
+    expression: "creative and inspired, eyes gazing slightly off-camera, warm closed-mouth smile"
+    background: "modern gallery space with warm wood floors and white walls, large abstract painting with burgundy and gold tones visible"
+    lighting: "soft warm gallery lighting, even illumination with subtle warm shadows"
+    clothing: "flowing maxi dress in rich burgundy with long sleeves, elegant draped neckline, warm camel belt at waist, matching burgundy silk hijab, gold stacked rings, pointed-toe ankle boots in tan"
+    additional_prompt: "graceful full body from head to boots, modest fashion editorial, warm sophisticated color palette, movement in flowing fabric"
